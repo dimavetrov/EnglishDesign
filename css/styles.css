@@ -585,15 +585,18 @@ width: 100%;
 
 /*Facultative list*/
 
-.facult-list .header{
+.facult-list .header,.about-facultative{
     padding: 20px 0;
 }
-.facult-list .header .description, .facultative .description{
+ .facultative .description, .news-list .news .text{
     padding: 10px 20px;
-    max-height: 200px ;
+    height: 220px ;
     overflow: hidden;
 }
 
+.facult-list .header .description,.about-facultative .description{
+    padding: 10px 20px;
+}
 .facult-list .facultative{
     display: block;
     padding:0 0 10px 0;
@@ -651,6 +654,85 @@ width: 100%;
 }
 
 /*Facultative list*/
+
+
+/*Facultative news list*/
+
+.news-list{
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.news-list .news{
+    height: 760px;
+    padding:  20px ;
+    display: block;
+    margin:30px;
+    border: 1px solid #B4ABB4;
+}
+
+.news-list .news .pic{
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+    height:250px;
+    overflow: hidden;
+}
+
+.news .pic img{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.news .pic img:hover{
+    transform: scale(1.1);
+}
+
+.news .media-block{
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    float: left;
+}
+
+
+.news .media-block ul{
+    width: 70%;
+    margin: 10px 15%;
+    float: left;
+}
+.news .media-block ul li{
+    float: left;
+}
+
+.news .media-block ul li a{
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+.news-list .news a h2{
+    font-size:2em;
+}
+
+.news .media-block ul li a i{
+  font-size: 3em;
+}
+.news .media-block ul li a:hover i {
+    color: #29bbff;
+
+}
+
+.news-list .news .text{
+    padding: 0;
+    height: 180px;
+    overflow: hidden;
+}
+
+
+
+/*Facultative news list*/
 
 /*Media quaries  */
 
