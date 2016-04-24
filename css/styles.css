@@ -31,7 +31,7 @@ h3{
 }
 
 h4{
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 h5{
@@ -583,7 +583,74 @@ width: 100%;
 /*Auth    */
 
 
+/*Facultative list*/
 
+.facult-list .header{
+    padding: 20px 0;
+}
+.facult-list .header .description, .facultative .description{
+    padding: 10px 20px;
+    max-height: 200px ;
+    overflow: hidden;
+}
+
+.facult-list .facultative{
+    display: block;
+    padding:0 0 10px 0;
+    float: left;
+    overflow: hidden;
+    max-height: 500px;
+    height: 500px;
+    /* border: 1px solid; */
+    margin:25px 30px 50px 30px;
+    box-shadow: 0 0 1px 1px #333;
+}
+
+
+
+.facultative h4{
+    font-size: 1.3em;
+}
+
+.facultative h2{
+    text-align: center;
+}
+
+.facultative .login-btn{
+    padding: 12px 15px;
+    font-size: 1.2em;
+}
+
+.facultative .title{
+    margin:0 0 20px 0;
+    background: #333;
+    height: 150px;
+    max-height: 160px;
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.facultative .title a h2{
+    color: #ddd;
+    font-size: 2em;
+    padding: 20px 10px;
+}
+
+.facultative .btn-container{
+    margin: 20px 0;
+}
+
+.facult-list .facultative:hover, .facult-list .facultative:focus,.facult-list .facultative:active{
+    box-shadow: 0 0 1px 1px #29bbff;
+}
+
+.facult-list .facultative .title a h2:hover{
+    color: #29bbff;
+}
+
+/*Facultative list*/
 
 /*Media quaries  */
 
