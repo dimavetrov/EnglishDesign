@@ -307,7 +307,7 @@ width: 100%;
 }
 
 .title{
-    margin: 30px 0;
+    margin: 20px 0;
     outline: none!important;
     color: #333;
 }
@@ -377,7 +377,7 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
     padding: 20px ;
 }
 .teacher .info-block .text .name{
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 700;
     color: #0197ce;
     margin: 10px 0;
@@ -399,7 +399,7 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
 }
 
 .teacher .info-block .text span{
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff;
 }
 
@@ -452,7 +452,7 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
     overflow: hidden;
 }
 
-.book-library .pic img{
+.book-library .pic img, .teachers-block .pic img{
     margin: 10px auto;
 }
  .black{
@@ -585,7 +585,7 @@ width: 100%;
 
 /*Facultative list*/
 
-.facult-list .header,.about-facultative{
+.facult-list .header,.about-facultative, .single-news{
     padding: 20px 0;
 }
  .facultative .description, .news-list .news .text{
@@ -681,7 +681,7 @@ width: 100%;
     overflow: hidden;
 }
 
-.news-list .news .pic img{
+.news-list .news .pic img, .single-news .pic img{
     height: 100%;
     margin: 0 auto;
 }
@@ -707,7 +707,7 @@ width: 100%;
     float: left;
 }
 
-.news-list .news .media-block ul li a{
+.news-list .news .media-block ul li a,.single-news .media-block ul li a{
     color: #333;
     padding: 10px 20px;
     margin: 5px 10px;
@@ -716,26 +716,24 @@ width: 100%;
     font-size:2em;
 }
 
-.news-list .news .media-block ul li a i{
+.news-list .news .media-block ul li a i, .single-news .media-block ul li a i{
   font-size: 3em;
 }
-.news-list .news .media-block ul li a:hover i {
+.news-list .news .media-block ul li a:hover i , .single-news .media-block ul li a:hover i{
     color: #29bbff;
 
 }
 
-.news-list .news .date {
+.news-list .news .date, .single-news .date {
     float: left;
     width: 100%;
     margin: 10px 0;
 }
-.news-list .news .date span{
+.news-list .news .date span, .single-news .date span{
     margin: 0 3px;
     font-size: 1.2em;
 
 }
-
-
 
 .news-list .news .text{
     padding: 0;
@@ -744,9 +742,36 @@ width: 100%;
     overflow: hidden;
 }
 
-
-
 /*Facultative news list*/
+
+/*Single news of facultative*/
+
+.single-news .pic {
+    width: 80%;
+    height: 250px;
+    float: left;
+    padding: 20px;
+}
+
+.single-news .media-block {
+    float: right;
+    width: 20%;
+}
+
+.single-news .media-block ul li {
+    float: none;
+}
+
+
+.single-news .text {
+    width: 100%;
+    float: none;
+    margin: 10px 0  ;
+}
+
+/*Single news of facultative*/
+
+
 
 /*Media quaries  */
 
