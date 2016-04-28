@@ -788,7 +788,7 @@ color: #ddd;
 /*Facultative list*/
 
 .facult-list ,.news-list, .single-news{
-    padding: 120px 0;
+    padding: 60px 0;
 }
  .facultative .description, .news-list .news .text{
     padding: 10px 20px;
@@ -810,6 +810,7 @@ color: #ddd;
      min-height: 500px;
      background-size: cover!important;
      width: 100%;
+     position: relative;
      overflow: hidden;
  }
 
@@ -821,13 +822,21 @@ color: #ddd;
 }
 
 .facult-list .facultative{
-    display: block;
     padding:0 0 10px 0;
     float: left;
     overflow: hidden;
     height: 300px;
     margin:25px 30px 50px 30px;
+    display: inline-block;
+    width: 100%;
+    direction: ltr;
     }
+
+.facultative .block{
+    display: table;
+    width: 100%;
+
+}
 
 .top-block .title-block .description, .about-facultative .title-block .description{
     padding: 10px;
@@ -858,15 +867,15 @@ color: #ddd;
 
 .facultative .title{
     margin:0 0 20px 0;
-    float: left;
     width: 50%;
     height: 300px   ;
     position: relative;
-    display: block;
     color: #dddddd;
     z-index: 3;
     background: url("../images/top/facult.jpg")  no-repeat;
     background-size: cover;
+    display: table-cell;
+    direction: ltr;
 }
 
 .facultative .bg{
@@ -892,9 +901,16 @@ color: #ddd;
     background: #245d3c;
 }
 .facultative .info{
-    float: right;
     width: 50%;
+    display: table-cell;
+    direction: rtl;
+    vertical-align: top;
 }
+
+.facultative:nth-of-type(even) .info, .facultative:nth-of-type(even) .title {
+    direction: ltr;}
+.facultative:nth-of-type(even) {
+    direction: rtl;}
 
 .facultative .title a h2{
     color: #ddd;
@@ -1126,6 +1142,11 @@ color: #ddd;
     .more-block{
         padding: 30px 15px;
         float: left;
+    }
+
+    .media-block ul{
+        width: 100%;
+        margin: 10px;
     }
 
     .important-news .block,.news-block .block{
