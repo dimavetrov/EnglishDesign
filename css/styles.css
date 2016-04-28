@@ -8,6 +8,8 @@ body, html {
 
 body{
     background: rgba(255, 255, 255,1);
+   // background: url("../images/bg3.png") no-repeat fixed;
+    background-size: cover;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -19,15 +21,15 @@ body{
 }
 
 h1{
-    font-size: 3.5em;
-}
-
-h2{
     font-size: 3em;
 }
 
-h3{
+h2{
     font-size: 2.5em;
+}
+
+h3{
+    font-size: 2em;
 }
 
 h4{
@@ -89,6 +91,14 @@ h6{font-size: 1.1em}
     color: #dddddd;
 }
 
+a{
+    color: #333333;
+}
+
+footer {
+    background: #333!important;
+}
+
 .fixed{
     position: fixed;
     bottom: 0;
@@ -99,6 +109,7 @@ h6{font-size: 1.1em}
     padding: 10px 0;
     width: 100%;
     display: block;
+    background: #fff;
 }
 
 .cathedra-block .ico{
@@ -266,28 +277,35 @@ width: 100%;
 .about-block{
     padding: 0;
     margin:0;
-    max-height: 450px;
-    background:#0197ce;
+    height: 600px;
+   // background:#0197ce;
+ background: url("../images/learn.png") no-repeat fixed;
+    background-size: cover;
     overflow: hidden;
 }
 
 .about-block .text-block{
-    padding: 20px;
+    padding: 80px 30px;
     word-spacing: .03em;
     color: #ffffff;
+}
+
+.about-block .text-block .info-div{
+    background: rgba(0,0,0,.6);
+    padding: 20px;
 }
 
 .about-block .text-block h2{
     font-size: 3em;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #29bbff;
 }
 
 
 .about-block .text-block p{
     font-size: 1.1em;
-    text-align: left;
+    text-align: justify;
     margin-top: 20px;
     line-height: 25px;
 }
@@ -303,17 +321,33 @@ width: 100%;
 .task-block, .teachers-block,.book-library {
     padding: 60px 0;
     margin: 0;
-    background: #fbf6ff;
 }
-
+.task-block{
+    background: rgba(207, 200, 200, 0.8);
+}
 .title{
     margin: 20px 0;
     outline: none!important;
     color: #333;
 }
+
+.main{
+    padding: 30px 0;
+    text-align: center;
+
+}
+
+.main:after{
+    width: 20%;
+    margin: 30px 40% 10px 40%;
+    height: 2px;
+    content: " ";
+    display: block;
+    background: #868686;
+}
 a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
     text-decoration: none!important;
-    color: #01BAFD;
+    color: #2a6496;
 }
 
  .block{
@@ -347,7 +381,7 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
 /*Section of teachers block*/
 
 .teachers-block{
-    background: #fff;
+  //  background: #fff;
     margin: 0;
 }
 
@@ -356,35 +390,40 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
 }
 
 .teachers-block .teacher .pic{
-    width: 100%;
-    height: 300px;
+    width: 50%;
+     height: 280px;
+    margin: 5px 25%;
     overflow: hidden;
      float: left;
 }
 
 .teacher .info-block{
-    position: absolute;
-    bottom:0;
-    left: 0;
+   // position: absolute;
+    //bottom:0;
+    //left: 0;
     display: block;
-    opacity: 0;
-    width: 100%;
-    height: 50%;
-    background: rgba(0, 0, 0, 0.8);
+   // opacity: 0;
+    //width: 100%;
+    //height: 50%;
+//    background: rgba(0, 0, 0, 0.8);
 }
 
 .teacher .info-block .text{
-    padding: 20px ;
+    padding: 10px ;
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 .teacher .info-block .text .name{
     font-size: 1.6em;
     font-weight: 700;
-    color: #0197ce;
+    color: #333333;
     margin: 10px 0;
-    text-align: left;
+
+
 }
 
-.news-block .block:hover, .book-library .block:hover,.task-block .block:hover{
+.task-block .block:hover{
     opacity: 1;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -400,22 +439,24 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
 
 .teacher .info-block .text span{
     font-size: 1.2em;
-    color: #fff;
+    color: #919191;
 }
 
 .more{
     background: transparent;
     font-size: 2em;
-    border: 1px solid #000000;
+    border: 1px solid #878787;
     padding: 15px 20px;
     width: 100%;
 }
 
-.more:hover{
-    border: 1px solid #0197ce;
+.more:hover,.important-news .info .more:hover{
+    border: 1px solid transparent;
     background: #2a6496;
     color: #fff;
 }
+
+
 
 
 .more-block{
@@ -429,47 +470,119 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
 
 .book-library .block{
     margin: 0;
+
+}
+
+.book-library .block:before{
+    content: "";
+    display: block;
+    position: absolute;
+    background: #efe9dc;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out 300ms ease-in-out;
+    transition: all 300ms ease-in-out 300ms ease-in-out;
+    -webkit-transform: skew(0, 6deg);
+    -moz-transform: skew(0, 6deg);
+    -o-transform: skew(0, 6deg);
+}
+
+.book-library .block:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: #fffcf5;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out 300ms ease-in-out;
+    transition: all 300ms ease-in-out 300ms ease-in-out;
+    -webkit-transform: skew(0, -6deg);
+    -moz-transform: skew(0, -6deg);
+    -o-transform: skew(0, -6deg);
 }
 
 .book-library .header{
-    padding: 20px 0;
+    padding: 80px 0 20px 0;
     width: 100%;
-    float: left;
+}
+
+.book-library .block{
+    padding: 30px 0;
+}
+
+.book-library .block .header, .book-library .block .pic{
+    z-index: 10;
+    position: relative;
+
 }
 
 .book-library .header h3{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
+
+.book-library .header h3:before{
+    font-family: 'FontAwesome';
+    font-size: 1.2em;
+    -webkit-border-radius: 100% 100% 100% 100%;
+    -moz-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%;
+    display: inline-block;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -40px;
+}
+
+
+
+.book-library article:nth-child(2n+1) h3:before {
+    content: "\f02d";
+    background: rgba(81, 112, 199, 0.8);
+}
+
+
+.book-library article:nth-child(2n) h3:before {
+    content: "\f19d";
+    background: rgba(217, 146, 29, 0.8);
+}
+
 
 .book-library .header h4{
     font-size: 1em;
     text-align: center;
 }
 
-.book-library .pic{
-    padding: 10px;
-    overflow: hidden;
-}
-
-.book-library .pic img, .teachers-block .pic img{
-    margin: 10px auto;
-}
- .black{
-    background: #000000;
-    color: #fff!important;
-
-}
-
- .blue{
-    background: #29bbff;
-    color: #fbf6ff;
-
-}
-
- .green{
-    background: #1d3e1d;
-    color: #fff;
+.book-library .block:hover:after,.book-library .block:hover:before{
+    background: #fffefb;
+    -webkit-transform: skew(0,0);
+    -moz-transform: skew(0, 0);
+    -o-transform: skew(0, 0);
 }
 
 /*Section of the library*/
@@ -478,7 +591,23 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
 /*Section of the news of cathedra*/
 
 .news-block{
-    background: #f8f8f8;
+    padding: 50px 0;
+}
+
+.latest{
+    background: rgba(4, 24, 60, 0.8);
+}
+
+.important-news {
+    background: rgb(51, 51, 51);
+}
+
+.important-news .title, .important-news .more-block .more, .latest .more-block .more{
+color: #ddd;
+}
+
+.latest .main{
+    color: #dddddd;
 }
 
 .news-block .pic{
@@ -486,13 +615,63 @@ a.title,a:hover,a:focus, a:active, .title:hover,.title:focus,.title:active{
     overflow: hidden;
 }
 
+.important-news .pic{
+    height: 250px;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.important-news .info{
+    width: 50%;
+    float: right;
+}
+
+
+
+
+.news-block .block{
+    background: #fff;
+    padding: 0;
+}
+
+.news-block .info{
+    padding: 20px;
+}
 .news-block .info h2{
     font-size: 1.5em;
 }
 
-.news-block .info .time{
+
+.news-block .info span{
+    float: left;
+    width: 100%;
     font-size: 1em;
+
+    margin: 5px 0;
 }
+.news-block .info span i{
+    font-size: 1.2em;
+    margin-right: 5px;
+    color: #333333;
+}
+
+
+.news-block .info .more{
+    padding: 6px ;
+    margin: 10px 0;
+    font-size: 1em;
+    width: auto;
+}
+
+.info a h2{
+    color: #333333;
+}
+
+.info a h2:hover,.info a h2:focus,.info a h2:active{
+    color:#2a6496;
+}
+
 
 /*Section of the news of cathedra*/
 
@@ -681,16 +860,21 @@ width: 100%;
     overflow: hidden;
 }
 
-.news-list .news .pic img, .single-news .pic img{
+.news-list .news .pic img, .single-news .pic img,.important-news .pic img{
     height: 100%;
-    margin: 0 auto;
+    width: 100%;
+    -webkit-transition:  all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
-.news-list .news .pic img:hover{
+.news-list .news .pic img:hover,.important-news .pic img:hover{
     transform: scale(1.1);
+
 }
 
-.news-list .news .media-block{
+ .media-block{
     width: 100%;
     display: block;
     margin: 20px 0;
@@ -698,16 +882,16 @@ width: 100%;
 }
 
 
-.news-list .news .media-block ul{
+ .media-block ul{
     width: 70%;
     margin: 10px 15%;
     float: left;
 }
-.news-list .news .media-block ul li{
+ .media-block ul li{
     float: left;
 }
 
-.news-list .news .media-block ul li a,.single-news .media-block ul li a{
+.news-list .news .media-block ul li a, .media-block ul li a{
     color: #333;
     padding: 10px 20px;
     margin: 5px 10px;
@@ -716,10 +900,10 @@ width: 100%;
     font-size:2em;
 }
 
-.news-list .news .media-block ul li a i, .single-news .media-block ul li a i{
+.news-list .news .media-block ul li a i,  .media-block ul li a i{
   font-size: 3em;
 }
-.news-list .news .media-block ul li a:hover i , .single-news .media-block ul li a:hover i{
+.news-list .news .media-block ul li a:hover i ,  .media-block ul li a:hover i{
     color: #29bbff;
 
 }
@@ -747,26 +931,31 @@ width: 100%;
 /*Single news of facultative*/
 
 .single-news .pic {
-    width: 80%;
-    height: 250px;
+    width: 100%;
+    height: 500px;
     float: left;
     padding: 20px;
 }
 
-.single-news .media-block {
-    float: right;
-    width: 20%;
+.single-news h2{
+    text-align: center;
 }
 
-.single-news .media-block ul li {
-    float: none;
+.single-news .media-block ul{
+    width: 40%;
+    margin: 10px 30%;
 }
 
 
 .single-news .text {
     width: 100%;
-    float: none;
+    float: left;
     margin: 10px 0  ;
+}
+
+.single-news p img{
+    margin: 10px 10%;
+    width: 80%;
 }
 
 /*Single news of facultative*/
@@ -776,6 +965,8 @@ width: 100%;
 /*Media quaries  */
 
 @media all and  (max-width: 768px){
+
+
     #main-nav{
         color: #dddddd;
         visibility: hidden;
@@ -788,6 +979,24 @@ width: 100%;
         height: 100%;
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
+    }
+
+    .more-block{
+        padding: 30px 15px;
+        float: left;
+    }
+
+    .important-news .block,.news-block .block{
+        float: left;
+      margin: 20px;
+    }
+    .important-news .pic{
+        height: 250px;
+        width: 100%;
+    }
+
+    .important-news .info{
+        width: 100%;
     }
     .nav-block .navbar-nav{
         background: #01BAFD!important;
@@ -845,8 +1054,12 @@ width: 100%;
         margin: 20px 5px;
     }
 
-    h2{
-        font-size: 2.5em;
+    h2,.about-block .text-block h2{
+        font-size: 2em;
+    }
+
+    .about-block .text-block p{
+        font-size: 1em;
     }
 
     .pic img{
@@ -880,3 +1093,51 @@ width: 100%;
 }
 
 /*Media quaries  */
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+.owl-nav.disabled{
+    display: none;
+}
+.owl-carousel.owl-loaded{
+    overflow:hidden;
+}
+.owl-carousel img{
+    width: auto;
+}
+
+.owl-item{
+    float:left;
+}
+
+.owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+.k2t-blog-post .owl-dots {
+    margin-top: 0;
+}
+.owl-dots > div {
+    width: 70px;
+    height: 5px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #c4c4c4;
+    vertical-align: top;
+}
+.owl-dots > div.active {
+    background: #01BAFD;
+}

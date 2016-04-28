@@ -5,6 +5,7 @@ $(document).ready(function(){
 
     });
 
+
     new WOW().init();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -39,4 +40,59 @@ if( $(window).width >800) {
     var wind = $(window).height();
     $('.auth-block').height(wind - topBlockHeight - '50');
 }
+
+    $('.owl-dot').on('click',function(){
+        $('.owl-dot',this).toggleClass('active');
+    });
+
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav:false,
+        dots:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                loop: false,
+                margin: 20
+            },
+            600: {
+                items: 2,
+                loop: false,
+                margin: 20
+            },
+            1300: {
+                items: 3,
+                loop: false,
+                margin: 20
+            }
+
+        }
+    });
+
+
+$('.teachers').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav:false,
+    dots:true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 20
+        },
+        600: {
+            items: 2,
+            margin: 20
+        },
+        1300: {
+            items: 4,
+            margin: 20
+        }
+
+    }
+});
 });
