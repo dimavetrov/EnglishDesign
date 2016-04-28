@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     new WOW().init();
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 200) {
             $('.nav-block').addClass('navbar-fixed-top');
         } else {
             $('.nav-block').removeClass('navbar-fixed-top');
