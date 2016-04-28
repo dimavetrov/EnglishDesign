@@ -24,7 +24,7 @@
 
             <div class="col-md-7 col-xs-12">
                 <div class="ico">
-                    <a href="index.html"> <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                    <a href="main.html"> <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
                 </div>
                 <div class="title"><h1>Кафедра Іноземної Мови</h1>
                 <span>Дніпропетровський Національний Університет імені академіка В.А.Лазаряна
@@ -47,7 +47,7 @@
 </header>
 
 
-<nav class="nav-block navbar navbar-default  ">
+<nav class="nav-block navbar navbar-default">
     <div class="container">
         <div class="row">
             <div class="navbar-header visible-xs">
@@ -89,35 +89,41 @@
 <section class="auth-block box-size">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 auth">
+            <div class="col-md-10 col-md-offset-1 auth">
                 <h1>Регистрация пользователя</h1>
                 <h4>Дніпропетровський Національний Університет імені академіка В.А.Лазаряна</h4>
             </div>
 
-            <div class="col-md-6 register transition3s">
+            <div class="col-md-10 col-md-offset-1 register transition3s">
                 <form action="#">
                     <div>
                     <input type="text"  id="name" placeholder="Имя:">
+                        <label for="name">Неверное введено имя </label>
                     </div>
                     <div>
                     <input type="email"  id="email" placeholder="Email:">
+                        <label for="email">Неверное введен email </label>
+
                     </div>
                     <div>
                     <input type="text"  id="surname" placeholder="Фамилия:">
+                        <label for="surname">Неверное введена фамилия </label>
+
                     </div>
                     <div>
                     <input type="password" id="password" placeholder="Пароль:">
-                   <!-- <label for="password">Некорректно</label>!-->
+                    <label for="password">Некорректно введен пароль</label>
                     </div>
                     <div>
                     <input type="text"  id="fullname" placeholder="Отчество:">
+                        <label for="fullname">Неверное введено отчество </label>
+
                     </div>
 
                     <div>
                     <input type="password" id="repeat" placeholder="Повторите пароль:">
                     </div>
-                    <div class="btn-container pull-left">
-                        <a href="#" class="btn btn-default login-btn">Зарегистрироваться</a></div>
+                        <a href="#" class="btn btn-default login-btn">Зарегистрироваться</a>
                 </form>
             </div>
         </div>
