@@ -2,7 +2,6 @@ $(document).ready(function(){
 
     $('.navbar-toggle').on('click',function(){
         $('#main-nav').toggleClass('open');
-
     });
 
 
@@ -15,7 +14,6 @@ $(document).ready(function(){
         }
 
     });
-
 
 
     $(window).scroll(function () {
