@@ -38,7 +38,7 @@ if( $(window).width >800) {
     var wind = $(window).height();
     $('.auth-block').height(wind - topBlockHeight - '50');
 }
-
+/*
     $('.owl-dot').on('click',function(){
         $('.owl-dot',this).toggleClass('active');
     });
@@ -70,12 +70,9 @@ if( $(window).width >800) {
         }
     });
 
+*/
 
-
-
-
-    $(".popup-gallery").magnificPopup({type:"image"});
-
+    $(document).ready(function() {
         $('.popup-gallery').magnificPopup({
             delegate: 'a',
             type: 'image',
@@ -93,6 +90,10 @@ if( $(window).width >800) {
                 }
             }
         });
+    });
+
+
+
 
 
 
