@@ -96,34 +96,24 @@
 
             <div class="col-md-10 col-md-offset-1 register transition3s">
                 <form action="#">
-                    <div>
+                    <div class="col-md-6 col-xs-12  pull-left">
                     <input type="text"  id="name" placeholder="Имя:">
-                        <label for="name">Неверное введено имя </label>
-                    </div>
-                    <div>
-                    <input type="email"  id="email" placeholder="Email:">
-                        <label for="email">Неверное введен email </label>
-
-                    </div>
-                    <div>
-                    <input type="text"  id="surname" placeholder="Фамилия:">
-                        <label for="surname">Неверное введена фамилия </label>
-
-                    </div>
-                    <div>
+                        <input type="text"  id="surname" class="failed" placeholder="Фамилия:">
+                        <input type="text" class="failed"  id="fullname" placeholder="Отчество:">
+                        <input type="email"  id="email" placeholder="Email:">
                     <input type="password" id="password" placeholder="Пароль:">
-                    <label for="password">Некорректно введен пароль</label>
-                    </div>
-                    <div>
-                    <input type="text"  id="fullname" placeholder="Отчество:">
-                        <label for="fullname">Неверное введено отчество </label>
-
-                    </div>
-
-                    <div>
                     <input type="password" id="repeat" placeholder="Повторите пароль:">
                     </div>
-                        <a href="#" class="btn btn-default login-btn">Зарегистрироваться</a>
+<div class="pull-right col-md-6 col-xs-12 ">
+                    <label for="fullname">Неверное введен email </label>
+                    <label for="fullname">Неверное введен пароль </label>
+                    <label for="fullname">Неверное введено отчество </label>
+                    <label for="fullname">Неверное введено имя </label>
+                    <label for="fullname">Неверное введена фамилия </label>
+                    <label for="fullname">Пароли не совпадают </label>
+
+</div>
+                    <a href="#" class="btn btn-default login-btn">Зарегистрироваться</a>
                 </form>
             </div>
         </div>

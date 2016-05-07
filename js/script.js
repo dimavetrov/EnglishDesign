@@ -71,26 +71,31 @@ if( $(window).width >800) {
     });
 
 
-$('.teachers').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav:false,
-    dots:true,
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1,
-            margin: 20
-        },
-        600: {
-            items: 2,
-            margin: 20
-        },
-        1300: {
-            items: 4,
-            margin: 20
-        }
 
-    }
-});
+
+
+    $(".popup-gallery").magnificPopup({type:"image"});
+
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Loading image #%curr%...',
+            mainClass: 'mfp-img-mobile',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                titleSrc: function(item) {
+                    return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+                }
+            }
+        });
+
+
+
+
+
 });
