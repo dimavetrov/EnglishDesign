@@ -8,7 +8,6 @@ body, html {
 
 body{
     background: rgba(255, 255, 255,1);
-   // background: url("../images/bg3.png") no-repeat fixed;
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -67,6 +66,13 @@ h6{font-size: 1.1em}
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.radius5px{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
 }
 
 
@@ -810,9 +816,18 @@ color: #ddd;
 .mediafiles-block{
     background:url("../images/top/media.jpg") fixed no-repeat;
 }
+.library-block{
+    background:url("../images/top/bib1.jpg") fixed no-repeat;
+}
+
+
+
 .mediafiles-block  .title-block .description h2{
     font-size: 2em;
 }
+
+
+
 .facult-list .facultative{
     padding:0 0 10px 0;
     float: left;
@@ -1279,10 +1294,6 @@ color: #ddd;
 
 
 
-
-
-
-
 .item:nth-child(odd) .header h3:before,.item:nth-child(odd) .header .btn:hover,.item:nth-child(odd) .header .btn:focus,.item:nth-child(odd) .header .btn:active
  {
      content: "\f02d";
@@ -1302,22 +1313,113 @@ color: #ddd;
     border-color: rgba(217, 51, 59, 0.8);
 }
 
-.item .header h4{
+.item .header h4, .item .info-block h4{
     font-size: 1.2em;
     text-align: center;
 }
 
-.item .header .btn{
+.item .header .btn, .library-grid .info-block .btn-container .btn{
     padding: 10px 12px;
 }
 /*Documents*/
 
 
-
-
 /*Styles for media page of facultatives*/
 
+/*Library page*/
 
+.search {
+    position: relative;
+}
+
+.search input {
+    border: none;
+}
+
+/* стили для поля ввода */
+.search .input {
+    width: 100%;
+    padding: 14px 40px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+    background: #EEE;
+    font-size: 1.2em;
+    color: #555;
+    outline: none;
+}
+
+.search span{
+    float: left;
+    position: absolute;
+    top:35%;
+    left:2%;
+    width: 30px;
+    height:auto;
+    z-index: 100;
+}
+
+.search span i{
+    font-size: 1.3em;
+    color: #aeaeae;
+}
+
+.search .input:focus {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+    background: #E8E8E8;
+    color: #333;
+}
+
+
+input[type="search"] {
+    -webkit-appearance: none;}
+
+.item .info-block{
+    padding: 20px;
+}
+
+.item .info-block h2{
+    font-size: 1.1em;
+    margin: 10px 0 30px 0;
+}
+
+.library-grid .item .pic{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.library-grid .item:nth-child(even) .pic {
+    background: rgb(66, 121, 164);
+}
+
+.library-grid .item:first-of-type .pic {
+    background: rgb(217, 106, 62)!important;
+}
+
+.library-grid .item:nth-child(odd) .pic {
+    background: rgb(126, 122, 165);
+}
+
+.library-grid .item .pic img {
+    width: 50%;
+    margin: 0 25%;
+    height: 100%;
+}
+.library-grid .item {
+    margin: 50px 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #D3C8C8;
+}
+
+.library-grid .item .info-block .btn-container .btn{
+    margin: 10px ;
+}
+
+/*Library page*/
 
 /*Media quaries  */
 
@@ -1479,6 +1581,11 @@ color: #ddd;
     .book-library .block{
         padding:0;
     }
+
+    .search span{
+        left:3%;
+    }
+
 }
 
 @media all and  (max-width: 1000px){
