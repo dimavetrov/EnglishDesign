@@ -1,5 +1,17 @@
-$(document).ready(function(){
+$.fn.liftOff = function(){
+    var div=$(".preloader");
+    $.when(
+        $(".logo-container").animate({bottom: '35%'}).promise()
+    ).done(function(){
+        $(".loader-container").animate({bottom: '15%'}).promise
+    })
 
+    div.delay(4000).animate({bottom:'100%'}, 400);
+
+};
+
+$(document).ready(function(){
+    $('body').liftOff();
     $('.navbar-toggle').on('click',function(){
         $('#main-nav').toggleClass('open');
     });
@@ -39,9 +51,6 @@ if( $(window).width >800) {
     $('.auth-block').height(wind - topBlockHeight - '50');
 }
 
-    $('.owl-dot').on('click',function(){
-        $('.owl-dot',this).toggleClass('active');
-    });
 
 
 
@@ -65,6 +74,8 @@ if( $(window).width >800) {
             }
         });
 
-
-
 });
+
+
+
+

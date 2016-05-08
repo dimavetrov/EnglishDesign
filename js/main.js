@@ -23,3 +23,7 @@ $('.owl-carousel').owlCarousel({
 
     }
 });
+
+$('.owl-dot').on('click',function(){
+    $('.owl-dot',this).toggleClass('active');
+});
