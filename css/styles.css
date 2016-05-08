@@ -823,7 +823,9 @@ color: #ddd;
 .mediagallery-block{
     background:url("../images/top/mediagallery.jpg") fixed no-repeat;
 }
-
+.news-top-block{
+    background:url("../images/top/london1.jpg") fixed no-repeat;
+}
 
 .mediafiles-block  .title-block .description h2{
     font-size: 2em;
@@ -1542,6 +1544,96 @@ border: none;}
 
 
 /*MediaGallery*/
+
+/*List news page*/
+
+.list-news{
+    background: #f1f1f1;
+}
+
+.list-news .title-block {
+    margin: 5px 0 20px 0;
+    border-bottom: 1px dashed #bebebe;
+}
+
+.list-news .title-block h2,.important-block h2{
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+
+.list-news .block{
+    padding: 20px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 2px 6px #dddbdb;
+}
+
+.list-news .block .info{
+    padding: 0;
+}
+
+
+
+.important-block{
+    padding:10px 20px;
+    background: #fff;
+    margin: 10px 0 20px 0;
+    box-shadow: 0 2px 6px #dddbdb;
+
+}
+
+.important-block .data{
+    padding: 5px 0;
+    float: left;
+}
+
+.important-block .pic{
+    max-height: 160px;
+    position: relative;
+}
+
+
+
+.important-block .pic .imp-label{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding: 5px 0;
+    left:0;
+    opacity: .8;
+    text-align: center  ;
+    text-transform: uppercase;
+    background: #d9333b;
+    color: #fff;
+    font-size: 1.2em;
+
+
+}
+
+.important-block .news{
+    margin: 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dashed #b1aab0;
+}
+.important-block .data span{
+    float: left;
+    margin: 5px;
+    font-size: .9em;
+}
+.important-block h2{
+    margin: 10px 0 20px 0;
+}
+.important-block .info{
+    padding: 10px;
+}
+.important-block .info h2{
+    font-size: 1.1em;
+    line-height: 25px;
+    margin: 5px 0;
+    text-transform:uppercase;
+}
+
+/*List news page*/
 
 
 

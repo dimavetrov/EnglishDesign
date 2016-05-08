@@ -54,8 +54,6 @@ if( $(window).width >800) {
 
 
 
-
-
         $('.popup-gallery').magnificPopup({
             delegate: 'a',
             type: 'image',
