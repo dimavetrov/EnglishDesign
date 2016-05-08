@@ -114,26 +114,36 @@
 </section>
 
 
-<section class="media-control">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="controls">
-                    <ul class="list-unstyled">
-                        <li class="active"><a href="#">Фотоматеріали</a></li>
-                        <li><a href="#">Відеоматеріали</a></li>
-                        <li><a href="#">Документи</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="library-grid">
 
     <div class="container">
         <div class="row document" data-columns>
+
+
+
+            <!-- Работающий пример со скачкой документа по кнопке скачать и в модальном окне работающая кнопка скачать!-->
+            <div class="item box-size">
+                <div class="pic">
+                    <img src="images/book2.svg" class="img-responsive" alt="">
+                </div>
+
+                <div class="info-block">
+                    <h2> Визначення попиту на пересування населенних малих міст маршрутним пасажирським транспортом
+                    </h2>
+                    <h4> Любий, Є. В. </h4>
+                    <div class="btn-container text-center">
+                        <a href="#" class="btn btn-default news-btn" data-toggle="modal"  data-target="#book1" >Детальніше</a><!-- data-target="#book1" -- id книги которая передается в модальное окно !-->
+                        <a href="docs/info.docx" class="btn btn-default news-btn">Скачати</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Работающий пример со скачкой документа по кнопке скачать и в модальном окне работающая кнопка скачать!-->
+
+
+
+
 
             <div class="item box-size">
 
@@ -153,24 +163,6 @@
 
             </div>
 
-
-            <div class="item box-size">
-
-                <div class="pic">
-                    <img src="images/book2.svg" class="img-responsive" alt="">
-                </div>
-
-                <div class="info-block">
-                    <h2> Визначення попиту на пересування населенних малих міст маршрутним пасажирським транспортом
-                    </h2>
-                    <h4> Любий, Є. В. </h4>
-                    <div class="btn-container text-center">
-                        <a href="#" class="btn btn-default news-btn">Детальніше</a>
-                        <a href="#" class="btn btn-default news-btn">Скачати</a>
-                    </div>
-                </div>
-
-            </div>
 
 
             <div class="item box-size">
@@ -265,7 +257,6 @@
 
             </div>
 
-
             <div class="item box-size">
 
                 <div class="pic">
@@ -273,7 +264,24 @@
                 </div>
 
                 <div class="info-block">
-                    <h2> Визначення попиту на пересування на пересування населенних на пересування населенних населенних малих міст маршрутним пасажирським транспортом
+                    <h2> Визначення попит на пересування населенниху на пересування населенних малих міст маршрутним пасажирським транспортом
+                    </h2>
+                    <h4> Любий, Є. В. </h4>
+                    <div class="btn-container text-center">
+                        <a href="#" class="btn btn-default news-btn">Детальніше</a>
+                        <a href="#" class="btn btn-default news-btn">Скачати</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="item box-size">
+
+                <div class="pic">
+                    <img src="images/book3.svg" class="img-responsive" alt="">
+                </div>
+
+                <div class="info-block">
+                    <h2> Визначення попит на пересування населенниху на пересування населенних малих міст маршрутним пасажирським транспортом
                     </h2>
                     <h4> Любий, Є. В. </h4>
                     <div class="btn-container text-center">
@@ -285,7 +293,115 @@
             </div>
 
 
+
+    </div>
+
+        <div class="paginator">
+            <div class="row">
+                <div class="text-center animated fadeInUp wow col-md-6 col-md-offset-3" >
+                    <ul class="pagination pagination-lg">
+                        <li class="disabled">
+                            <a href="#">
+                                <i class="fa fa-chevron-left"></i>
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="disabled">
+                            <a href="#">
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-chevron-right"></i>
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
+
+        <!--Модальные окна форматировать тут!!-->
+        <div class="modal fade " id="book1" tabindex="-1"
+             role="dialog"
+             aria-labelledby="myModalLabel">
+            <div class="modal-dialog "
+                 role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button"
+                                class="close"
+                                data-dismiss="modal"
+                                aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Визначення попиту на пересування населенних малих міст маршрутним пасажирським транспортом</h4>
+                    </div>
+
+
+
+                    <div class="modal-body">
+                        <div class="pic">
+                            <img src="images/book2.svg"
+                                 class="img-responsive" alt=""/>
+                        </div>
+
+
+                        <div class="modalArticle">
+                            <h3>Автор: Любий, Є. В.</h3>
+                            <h3> Год: 2012</h3>
+                            <div class="modalText">
+                                <h3>Аннотация:</h3>
+                                <p>Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt ut labore
+                                    et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in
+                                    reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla
+                                    pariatur.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <div class="btn-container">
+                        <a href="docs/info.docx" type="button"
+                                class="btn news-btn"
+                               >
+                            Скачати
+                        </a>
+                        <button type="button"
+                                class="btn news-btn"
+                                data-dismiss="modal"><i
+                                class="fa fa-times">
+                            </i>Закрити
+                        </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+        </div>
+
+        <!--Модальные окна форматировать тут!!-->
 
     </div>
 

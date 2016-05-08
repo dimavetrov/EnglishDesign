@@ -1125,6 +1125,10 @@ color: #ddd;
     -o-border-radius:0;
     border-radius:0 ;
 }
+
+.paginator{
+    padding: 20px 0;
+}
 /*Pagination*/
 
 
@@ -1255,10 +1259,9 @@ color: #ddd;
 
 /*Documents*/
 
-.document{
-    padding: 30px 0;
 
-}
+
+
 .document .item {
     margin: 30px 0;
     padding:20px;
@@ -1418,6 +1421,45 @@ input[type="search"] {
 .library-grid .item .info-block .btn-container .btn{
     margin: 10px ;
 }
+
+
+/*Styles for modal windows*/
+
+.modal-header .modal-title{
+    font-size: 1.2em;
+}
+
+.modal-body .pic{
+    width: 50%;
+    height: auto;
+    margin: 10px 25%;
+}
+
+.modalArticle h3{
+    font-size: 1.3em;
+}
+
+
+.modalArticle .modalText p{
+    line-height: 25px;
+    word-spacing: .03em;
+    font-size: 1em;
+}
+
+.modal-footer .news-btn{
+    padding: 10px 12px;
+    margin: 10px;
+    float: left;
+    width: 45%;
+}
+
+
+.modal-footer .news-btn i{
+   font-size: 1.2em;
+    margin-right: 5px;
+}
+
+/*Styles for modal windows*/
 
 /*Library page*/
 
