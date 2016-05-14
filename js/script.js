@@ -26,6 +26,10 @@ $(document).ready(function(){
 
     });
 
+    $('.folder-grid .block').on('click',function(){
+       $('.icon',this).toggleClass('active');
+    });
+
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 400) {
