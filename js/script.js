@@ -6,8 +6,7 @@ $.fn.liftOff = function(){
         $(".loader-container").animate({bottom: '15%'}).promise
     })
 
-    div.delay(4000).animate({bottom:'100%'}, 400);
-
+    div.delay(3000).animate({bottom:'100%'}, 400);
 };
 
 $(document).ready(function(){
@@ -30,7 +29,6 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 400) {
-
             $('.up').fadeIn();
         } else {
             $('.up').fadeOut();
@@ -38,8 +36,8 @@ $(document).ready(function(){
     });
 
 
-    $('.up').click(function(){
-        $('body').animate({
+    $('.up').on('click',function(){
+        $('html,body').animate({
             scrollTop: 0
         },1000);
         return false;
@@ -50,7 +48,6 @@ if( $(window).width >800) {
     var wind = $(window).height();
     $('.auth-block').height(wind - topBlockHeight - '50');
 }
-
 
 
 
