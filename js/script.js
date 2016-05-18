@@ -17,14 +17,17 @@ $(document).ready(function(){
 
 
     new WOW().init();
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.nav-block').addClass('navbar-fixed-top');
-        } else {
-            $('.nav-block').removeClass('navbar-fixed-top');
-        }
 
+    var nav = $('.nav-block');
+    var pos = nav.offset().top;
+
+    $(window).scroll(function () {
+        var fix = ($(this).scrollTop() > pos) ? true : false;
+
+        nav.toggleClass("navbar-fixed-top", fix);
     });
+
+
 
     $('.folder-grid .block').on('click',function(){
        $('.icon',this).toggleClass('active');
@@ -34,11 +37,33 @@ $(document).ready(function(){
     $(window).scroll(function () {
         if ($(this).scrollTop() > 400) {
             $('.up').fadeIn();
+            $('.media-grid #media-page .small-links').addClass('fixed');
+            $('.media-grid #media-page .small-links').fadeIn();
         } else {
             $('.up').fadeOut();
+            $('.media-grid #media-page .small-links').removeClass('fixed');
+            $('.media-grid #media-page .small-links').slideUp();
+
         }
+
+        if ($(this).scrollTop() > 100) {
+            $('#facultative #media-page .small-links').addClass('fixed');
+            $(' #facultative #media-page .small-links').fadeIn();
+        } else {
+            $('#facultative #media-page .small-links').removeClass('fixed');
+            $('#facultative #media-page .small-links').slideUp();
+
+        }
+
     });
 
+    /*Функция для вызова модального окна авторизации*/
+
+    $('#alert').on('click',function(){
+        $('#exception').modal('toggle');
+    });
+
+    /*Функция для вызова модального окна авторизации*/
 
     $('.up').on('click',function(){
         $('html,body').animate({
