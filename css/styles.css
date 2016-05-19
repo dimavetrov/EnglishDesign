@@ -1750,7 +1750,7 @@ input[type="search"] {
     padding: 0;
 }
 .media-gallery .second-container .item{
-    margin: 0;
+    margin: 5px;
 }
 
 
@@ -2221,41 +2221,38 @@ input[type="search"] {
     height: 100%;
     float: left;
     width: 100%;
+    padding: 20px;
     -webkit-border-radius: 0 0 5px 5px;
     -moz-border-radius: 0 0 5px 5px;
     -o-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
 
+
 }
 
 .schedule-box .advice-block .advice {
-    width: 50%;
     float: left;
     position: relative;
-    box-sizing: border-box;
-    padding: 10px 10px 20px 10px;
 }
 
-.schedule-box .advice-block a:first-of-type .advice {
-    border-right: 2px solid #DDE0EF
+.schedule-box .advice-block .advice .small-post {
+    margin: 20px 0 10px 0;
+    text-align: left;
+    font-size: 1em;
+    float: left;
+    line-height: 26px;
 }
 
-.schedule-box .advice-block .advice h2 {
-    font-size: 1.3em;
+.schedule-box .advice-block .advice .small-post span{
+   font-size: 1.2em;
+    text-align: left;
     font-weight: 600;
-    margin: 0;
-    padding: 10px 0;
-    text-align: center;
-    text-transform: uppercase;
-    background: #fff;
 }
 
 .schedule-box .advice-block .advice h4, .schedule-box .advice-block .advice h5 {
     text-align: center;
-    float: left;
-    width: 100%;
-    margin: 10px 0;
-    font-size: 1.2em;
+    margin: 15px 0;
+    font-size: 2em;
 }
 
 /*Schedule page*/
@@ -2365,7 +2362,7 @@ input[type="search"] {
 .folders .block {
     width: 100%;
     padding: 0 0 20px 20px;
-    max-height: 380px;
+    max-height: 400px;
     margin: 0;
     overflow: hidden;
 }
@@ -2397,7 +2394,7 @@ input[type="search"] {
 }
 
 .folders .block .main-block .btn-container{
-    margin-top: 20px;
+    margin-top:10px ;
 }
 
 .folders .block .main-block .btn-container .news-btn{
