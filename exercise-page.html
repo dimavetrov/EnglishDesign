@@ -198,12 +198,104 @@
 
 
 <div class="btn-container col-md-6 col-md-offset-2 text-center">
-    <input type="submit" class="btn news-btn" value="Перевірити">
+    <input type="button" class="btn news-btn" value="Перевірити" id="check">
 </div>
 
                 </form>
 
             </div>
+            <!--Модальные окна форматировать тут!!-->
+            <div class="modal fade " id="check-modal" tabindex="-1"
+                 role="dialog"
+                 aria-labelledby="myModalLabel">
+                <div class="modal-dialog "
+                     role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                    aria-label="Close"><span
+                                    aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+
+<div class="result-modal">
+    <h5>100%</h5>
+        <p>Всьoго завдань: <span>10</span></p>
+        <p>Правильних завдань: <span>6</span></p>
+</div>
+
+<div class="result-table">
+    <table class="table-responsive table table-bordered">
+        <thead>
+        <tr>
+            <th>Результат</th>
+            <th>Ім'я</th>
+            <th>Всього</th>
+            <th>Правильних</th>
+            <th>%</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <th>Поточний</th>
+            <td>
+                Вася Петров
+            </td>
+            <td>10</td>
+            <td>6</td>
+            <td>60%</td>
+        </tr>
+        <tr>
+            <th>Попередній</th>
+            <td>
+                Вася Петров
+            </td>
+            <td>10</td>
+            <td>6</td>
+            <td>60%</td>
+        </tr>
+        <tr>
+            <th>Найкращий</th>
+            <td>
+                Вася Петров
+            </td>
+            <td>10</td>
+            <td>6</td>
+            <td>60%</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+                        </div>
+
+                        <div class="modal-footer text-center">
+                            <div class="btn-container">
+                                <a href="#" id="result-btn" type="button"
+                                   class="btn news-btn"
+                                >
+                                    Подивитися результати
+                                </a>
+                                <button type="button"
+                                        class="btn news-btn"
+                                        data-dismiss="modal"><i
+                                        class="fa fa-times">
+                                </i>Закрити
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!--Модальные окна форматировать тут!!-->
+
+
             </div>
 
             <div class="col-md-4 col-xs-12">

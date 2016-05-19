@@ -65,6 +65,14 @@ $(document).ready(function(){
 
     /*Функция для вызова модального окна авторизации*/
 
+    $('#check').on('click',function(){
+        $('#check-modal').modal('toggle');
+    });
+
+    $('#check-modal #result-btn').on('click',function(){
+        $('.result-table').slideToggle();
+    });
+
     $('.up').on('click',function(){
         $('html,body').animate({
             scrollTop: 0
