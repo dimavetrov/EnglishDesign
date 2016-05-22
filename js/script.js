@@ -73,6 +73,10 @@ $(document).ready(function(){
         $('.result-table').slideToggle();
     });
 
+    $('.personal .change-btn').on('click',function(){
+        $('.change-block').slideToggle();
+    });
+
     $('.up').on('click',function(){
         $('html,body').animate({
             scrollTop: 0
@@ -105,6 +109,115 @@ if( $(window).width >800) {
                 }
             }
         });
+
+    /*
+    *
+    * The script for Charts (Графики)
+    * */
+/*
+    var ctx = $('#Test');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Present Simple 1', 'Present Simple Perfect Continious', 'Present Simple Continious', 'Present Simple 4', 'Present Simple 5', 'Present Simple 6','Present Simple 7', 'Present Simple 8','Present Simple 9', 'Present Simple 10','Present Simple 11', 'Present Simple 12'],
+            datasets: [{
+                label: '# Успішність складання тестів',
+                data: [50, 40, 100, 70, 50,50,44,33,76,45,67,35],
+                backgroundColor:'#1d517b',
+                hoverBackgroundColor: "#7B0001"
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+    var ctx = $('#Gap');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Present Simple 1', 'Present Simple Perfect Continious', 'Present Simple Continious', 'Present Simple 4', 'Present Simple 5', 'Present Simple 6','Present Simple 7', 'Present Simple 8','Present Simple 9', 'Present Simple 10','Present Simple 11', 'Present Simple 12'],
+            datasets: [{
+                label: '# Успішність складання   пропущене слово',
+                data: [50, 40, 100, 70, 50,50,44,33,76,45,67,35],
+                backgroundColor:'#1d517b',
+                hoverBackgroundColor: "#7B0001"
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+
+
+
+    var ctx = $('#Puzzle');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Present Simple 1', 'Present Simple Perfect Continious', 'Present Simple Continious', 'Present Simple 4', 'Present Simple 5', 'Present Simple 6','Present Simple 7', 'Present Simple 8','Present Simple 9', 'Present Simple 10','Present Simple 11', 'Present Simple 12'],
+            datasets: [{
+                label: '# Успішність складання пазлів',
+                data: [50, 40, 100, 70, 50,50,44,33,76,45,67,35],
+                backgroundColor:'#1d517b',
+                hoverBackgroundColor: "#7B0001"
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+*/
+
+
+    $('.teacher-owl').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav:false,
+        dots:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                loop: false,
+                margin: 20
+            },
+            600: {
+                items: 1,
+                loop: false,
+                margin: 20
+            },
+            760: {
+                items: 2,
+                loop: false,
+                margin: 20
+            },
+            1300: {
+                items: 1,
+                loop: false,
+                margin: 20
+            }
+
+        }
+    });
+
 
 });
 

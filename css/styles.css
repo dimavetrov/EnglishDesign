@@ -108,7 +108,7 @@ h6 {
 
 .up:hover, .up:focus, .up:active {
     opacity: 1;
-    background: #01BAFD;
+    background: #3F76A1;
 }
 
 .up i {
@@ -194,8 +194,8 @@ footer {
 }
 
 .login-btn:hover {
-    background: #01BAFD;
-    border-color: #01BAFD;
+    background: #3F76A1;
+    border-color: #3F76A1;
     color: #fff!important;
 }
 
@@ -225,7 +225,15 @@ footer {
     text-transform: uppercase;
     padding: 10px 5px;
     background: transparent !important;
-    color: #dddddd !important;
+    color: #b0b0b0;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transition: .2s all linear;
+    -moz-transition: .2s all linear;
+    -o-transition: .2s all linear;
+
 }
 
 .navbar-toggle {
@@ -266,10 +274,17 @@ footer {
     transition: transform 0.2s;
 }
 
-.nav-block .navbar-nav li a:hover, .nav-block .navbar-nav li a:focus, .nav-block .navbar-nav li a:active {
-    color: #3F76A1 !important;
+.nav-block .navbar-nav li a:hover, .nav-block .navbar-nav li a:focus, .nav-block .navbar-nav li a:active ,.nav-block .navbar-nav .active a {
     background: transparent !important;
-
+    color: #ffffff !important;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition: .3s all linear;
+    -webkit-transition: .2s all linear;
+    -moz-transition: .2s all linear;
+    -o-transition: .2s all linear;
 }
 
 .nav-block .navbar-nav li:hover:after, .nav-block .navbar-nav li:focus:after, .nav-block .navbar-nav li:active:after, .navbar-nav li.active:after {
@@ -278,10 +293,6 @@ footer {
     transition-delay: 0s;
 }
 
-.nav-block .navbar-nav .active a {
-    background: transparent !important;
-    color: #3F76A1 !important;
-}
 
 .nav-block .navbar-nav .dropdown-menu {
     top: 45px;
@@ -347,7 +358,7 @@ footer {
 /*Block about cathedra*/
 
 /*Section of task block*/
-.task-block, .teachers-block, .book-library, .media-grid {
+.task-block, .teachers-block, .book-library, .media-grid , .cathedra-grid{
     padding: 30px 0 60px 0;
     margin: 0;
 }
@@ -388,7 +399,7 @@ footer {
 
 a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.task-block a h3:hover, .news-block a h2:hover {
     text-decoration: none !important;
-    color: #7b0001!important;
+    color: #7b0001;
 }
 
 .block {
@@ -771,11 +782,11 @@ a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.
 
 /*Facultative list*/
 
-.facult-list, .news-list, .single-news, .exercise-grid {
+.facult-list, .news-list, .single-news, .exercise-grid,.personal {
     padding: 30px 0;
 }
 
-.single-news, .exercise-grid {
+.single-news, .exercise-grid, .cathedra-grid {
     background: #f1f1f1;
 }
 
@@ -830,6 +841,10 @@ a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.
 .schedule-top-block {
     background: url("../images/top/sch1.jpg") fixed no-repeat;
 }
+.cathedra-top-block {
+    background: url("../images/top/bib1.jpg") fixed no-repeat;
+}
+
 
 .mediafiles-block .title-block .description h2 {
     font-size: 2em;
@@ -855,6 +870,19 @@ a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.
     display: table;
     width: 100%;
 
+}
+
+.cathedra-top-block .title-block{
+    top:0;
+    height: 100%;
+    background: rgba(55, 72, 81, 0.8);
+}
+
+.cathedra-top-block .title-block .description{
+    padding: 150px 0!important;
+}
+.cathedra-top-block .title-block .description h1{
+    text-transform: uppercase;
 }
 
 .top-block .title-block .description, .about-facultative .title-block .description {
@@ -1017,7 +1045,7 @@ a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.
  .data span i{
     margin-right: 5px;
     font-size: 1.3em;
-    color: #2a6496;
+    color: #7b0001;
 }
 
 .news-block .data span i{
@@ -1590,7 +1618,7 @@ input[type="search"] {
 }
 
 .modal-header {
-    padding: 16px 10px;
+    padding: 16px 20px;
 }
 
 .modal-footer .btn-container .news-btn, .task-area .block .news-btn {
@@ -1835,7 +1863,7 @@ input[type="search"] {
     padding: 0;
 }
 
-.important-block {
+.important-block,.personal .block, .cathedra-grid .block  {
     padding: 10px 20px;
     background: #fff;
     margin: 0 0 20px 0;
@@ -2079,6 +2107,7 @@ input[type="search"] {
     text-align: center;
     border: 2px solid #c2c1cc;
     position: relative;
+    height: 80px;
 }
 
 .schedule thead > tr > th {
@@ -2216,7 +2245,7 @@ input[type="search"] {
     border: 2px solid #cecdd9;
 }
 
-.schedule-box .advice-block {
+.schedule-box .advice-block{
     background: #fff;
     height: 100%;
     float: left;
@@ -2328,15 +2357,15 @@ input[type="search"] {
     margin: 0;
 }
 
-.result-block .result-grid .task span .bad {
+.result-block .result-grid .task span.bad {
     color: #af2133!important;
 }
 
-.result-block .result-grid .task span .ok {
+.result-block .result-grid .task span.ok {
     color: #30964c !important;
 }
 
-.result-block .result-grid .task span .middle {
+.result-block .result-grid .task span.middle {
     color: #d9b03e !important;
 }
 
@@ -2358,6 +2387,12 @@ input[type="search"] {
 .task-area .block .btn-container .news-btn{
     font-size: 1.3em;
     width: 100%;
+    margin: 0;
+}
+
+.task-area .block .btn-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .folders .block {
     width: 100%;
@@ -2404,7 +2439,6 @@ input[type="search"] {
 
 
 
-
 .task-area .block .left-block {
     width: 30%;
     height: 400px;
@@ -2421,6 +2455,35 @@ input[type="search"] {
     width: 100%;
     font-weight: 600;
     line-height: 26px;
+}
+
+.task-area .block .gap-block .task{
+    position: relative;
+    float: left;
+    margin: 10px 0;
+}
+.task-area .block .gap-block .task label,.task-area .test .task .question-block label {
+    font-size: 1.3em;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+
+.task-area .block .gap-block .task input.gap-input{
+    padding: 6px 8px;
+    outline: none;
+    font-size: 1.2em;
+    margin: 0 5px;
+    border: 1px solid #9F9D9D;
+}
+
+.task-area .block .gap-block .task input.gap-input:focus{
+    border-color: #1d517b;
+}
+
+.task-area .block .gap-block .task span.count,.task-area .test .task .question-block span.count{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 
@@ -2442,13 +2505,13 @@ border: none;
 /*Modal exercise */
 
 .task-area #check-modal .result-modal h5{
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     padding: 40px 0;
 }
 
 .task-area #check-modal .result-modal p{
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 10px 0;
 }
 
@@ -2465,8 +2528,162 @@ border: none;
     padding: 10px!important;
  }
 
-
 /*Modal exercise */
+
+/*Student personal page*/
+.personal .block  .student-data h2{
+    font-size: 2em;
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.personal .block  .student-data h4{
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+
+.personal .block  .student-data .more{
+    font-size: 1.1em;
+}
+
+.personal .block,.cathedra-grid .block {
+    padding: 20px;
+}
+.personal .block .student-data ,.cathedra-grid .block .teacher .info-block .text{
+    padding: 10px ;
+}
+.personal{
+    background: rgba(221, 221, 221, 0.8);
+}
+.personal .block{
+    margin: 0 0 10px 0;
+}
+
+.personal .change-block .more,.personal .change-block .change-form input{
+    margin: 10px 0 10px 0;
+    font-size: 1.2em;
+    padding: 8px 10px;
+}
+
+.personal .change-block{
+    display: none;
+}
+
+.personal .change-block, .personal .task-success{
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 30px 50px 30px;
+    position: relative;
+}
+.personal .change-block .change-form {
+    padding: 10px 0;
+}
+
+.personal .change-block .change-form .fileinput-preview{
+    margin: 10px 0;
+}
+
+.personal .change-block .errors-block{
+    padding:80px 40px;
+    color: #7b0001;
+    text-align: left;
+}
+
+.personal .task-success .ct-label{
+    fill: rgba(38, 38, 38, 0.8);
+    color: #737373;
+    font-size: .9em;
+    padding: 5px;
+    line-height: 22px;
+}
+
+.personal .task-success .chart h3{
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 35px;
+}
+
+.personal .task-success .chart{
+    padding: 10px;
+    overflow-x: visible;
+}
+.personal .task-success .chart #Test,.personal .task-success .chart #Gap,.personal .task-success .chart #Puzzle{
+   padding: 20px 0 0 0;
+    min-height:450px;
+}
+
+
+.personal .task-success .chart svg{
+    overflow: visible;
+}
+ /*Student personal page*/
+
+/*Cathedra-grid*/
+
+.cathedra-grid .block .teacher{
+    margin: 20px 0;
+    float: left;
+}
+.cathedra-grid .block{
+    float: none;
+    padding: 40px 20px;
+}
+
+.cathedra-grid .block .teachers-grid h3,.cathedra-grid .block .panels h3{
+    margin:20px 0 30px 0;
+}
+.cathedra-grid .block .teachers-grid .teacher .info-block .text h2{
+    font-size: 2em;
+}
+.cathedra-grid .block .teachers-grid .teacher .info-block .text span{
+    font-size: 1.5em;
+}
+
+.cathedra-grid .block .panels .panel-default>.panel-heading{
+    color: #353535;
+    background-color: #e7e8e8;
+    padding: 20px;
+    border-color: #f1f1f1;
+}
+.cathedra-grid .block .panels .panel-default>.panel-heading:hover{
+    background: #4a89db;
+    cursor: pointer;
+}
+
+.cathedra-grid .block .panels .panel-default>.panel-heading:hover a
+
+{
+    color: #f1f1f1!important;
+}
+
+.cathedra-grid .block .panels .panel .panel-title{
+    font-size: 1.3em;
+    line-height: 28px;
+    text-transform: uppercase;
+
+}
+.cathedra-grid .block .panels,.cathedra-grid .block .teachers-grid{
+   padding: 20px  0;
+}
+
+
+.cathedra-grid .block .panels .panel{
+    background: #fff;
+    margin: 20px 0;
+}
+.cathedra-grid .block .panels .panel-body{
+    padding: 20px;
+    font-size: 1.1em;
+    line-height: 24px;
+}
+.cathedra-grid .block .panels .panel-body img{
+    margin: 10px 0;
+    padding: 10px;
+}
+/*Cathedra-grid*/
 
 
 
@@ -2502,7 +2719,6 @@ input[type='radio'] + label:before, input[type='radio'] + label:after,
 input[type='checkbox'] + label:before,
 input[type='checkbox'] + label:after {
     content: '';
-    font-family: helvetica;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -2745,6 +2961,10 @@ input[type='checkbox']:checked.toggle:after {
 
     .media-gallery .item{
         padding: 0!important;
+    }
+
+    .important-block .pic{
+        min-height: 200px;
     }
 
     .controls li {
@@ -2991,6 +3211,10 @@ input[type='checkbox']:checked.toggle:after {
 
     .result-block .result-grid .task .count {
         margin: 0 0 3px 0;
+    }
+
+    .personal .task-success .chart #Test, .personal .task-success .chart #Gap, .personal .task-success .chart #Puzzle{
+        min-height: 300px;
     }
 }
 
