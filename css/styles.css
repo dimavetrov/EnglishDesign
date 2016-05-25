@@ -772,11 +772,12 @@ a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.
 }
 
 .news-btn:hover, .news-btn:focus, .news-btn:active {
-    border: 1px solid #2a6496 ;
+    border-color: transparent!important;
     cursor: pointer;
-    color: #ddd!important;
+    color: #ffffff !important;
     background: #2a6496;
 }
+
 
 /*Auth    */
 
@@ -1184,6 +1185,10 @@ a.title, a:hover, a:focus, a:active, .title:hover, .title:focus, .title:active,.
     float: right;
     margin: 10px 0;
     width: 80%;
+}
+
+#facultative .block .answer-block .text p{
+    font-size: 1.2em;
 }
 
 #facultative .block .answer-block .text h5{
@@ -1863,7 +1868,7 @@ input[type="search"] {
     padding: 0;
 }
 
-.important-block,.personal .block, .cathedra-grid .block  {
+.important-block,.personal .block, .cathedra-grid .block, .admin-panel .block  {
     padding: 10px 20px;
     background: #fff;
     margin: 0 0 20px 0;
@@ -2031,7 +2036,7 @@ input[type="search"] {
     color: #f1f1f1;
 }
 
-.schedule-grid .controls-block .teacher-block select, .schedule-grid .controls-block .schedule-block select {
+.schedule-grid .controls-block .teacher-block select, .schedule-grid .controls-block .schedule-block select, .panel-info-block .controls-block .test-block select {
     padding: 15px 14px;
     font-size: 1.2em;
     outline: none;
@@ -2107,7 +2112,7 @@ input[type="search"] {
     text-align: center;
     border: 2px solid #c2c1cc;
     position: relative;
-    height: 80px;
+    height: 60px;
 }
 
 .schedule thead > tr > th {
@@ -2408,7 +2413,7 @@ input[type="search"] {
     padding: 10px;
 }
 
-.folders .block .main-block h2 ,.small-task-area .block .left-block h2{
+.folders .block .main-block h2 ,.small-task-area .block .left-block h2 {
     font-size: 2em;
     margin: 10px 0 20px 0;
     line-height: 33px;
@@ -2531,24 +2536,24 @@ border: none;
 /*Modal exercise */
 
 /*Student personal page*/
-.personal .block  .student-data h2{
+.personal .block  .student-data h2, .panel-info-block .block  .student-data h2{
     font-size: 2em;
     margin: 5px 0;
     font-weight: 400;
     line-height: 35px;
 }
 
-.personal .block  .student-data h4{
+.personal .block  .student-data h4, .panel-info-block .block  .student-data h4{
     font-size: 1.3em;
     margin: 20px 0;
 }
 
 
-.personal .block  .student-data .more{
+.personal .block  .student-data .more, .panel-info-block .block  .student-data .more{
     font-size: 1.1em;
 }
 
-.personal .block,.cathedra-grid .block {
+.personal .block,.cathedra-grid .block, .panel-info-block .block {
     padding: 20px;
 }
 .personal .block .student-data ,.cathedra-grid .block .teacher .info-block .text{
@@ -2561,7 +2566,7 @@ border: none;
     margin: 0 0 10px 0;
 }
 
-.personal .change-block .more,.personal .change-block .change-form input{
+.personal .change-block .more,.personal .change-block .change-form input, .admin-panel .panel-info-block .test-statistic  input{
     margin: 10px 0 10px 0;
     font-size: 1.2em;
     padding: 8px 10px;
@@ -2642,6 +2647,14 @@ border: none;
     font-size: 1.5em;
 }
 
+.cathedra-grid .block .teachers-grid .teacher .info-block .text p, .admin-panel .panel-info-block .student-data p{
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 24px;
+}
+
+
+
 .cathedra-grid .block .panels .panel-default>.panel-heading{
     color: #353535;
     background-color: #e7e8e8;
@@ -2685,8 +2698,118 @@ border: none;
 }
 /*Cathedra-grid*/
 
+/*Puzzle page*/
+
+.task-area .puzzle-block,.task-area .puzzle-block .puzzle{
+   position: relative;
+    float: left;
+    width: 100%;
+}
+
+.task-area .puzzle-block .sentence-block{
+    margin: 20px 0;
+}
+.task-area .puzzle-block .btn-container .news-btn{
+    border-radius: 0;
+}
+
+.task-area .puzzle-block .phrase-block{
+    z-index: 10;
+    position: relative;
+    max-height:50px;
+    float: left;
+    overflow: hidden;
+    margin: 20px 0 20px 0;
+}
+
+.task-area .puzzle-block  .phrase-description{
+    color: #a39a94;
+    line-height: 16px;
+    padding:10px 6px;
+    margin: 20px 0 20px 0;
+    outline: none!important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    font-size: 1em;
+    white-space: normal;
+    background: #e3e3e3;
+    text-align: center;
+    float: left;
+    width: 150px;
+    height: 50px;
+    min-height: 28px;
+    z-index: -1;
+    -webkit-appearance: none;
+}
+.task-area .puzzle-block .word-area{
+    padding: 10px 0;
+    float: left;
+    width: 100%;
+}
+.task-area .puzzle-block .word-block{
+    border: 2px solid #E4DFDF;
+    font-size: 1em;
+   display:inline-block;
+    margin: 0 10px 0 0 ;
+    height: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 3;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
 
 
+.task-area .puzzle-block .answer-block{
+   // display: none;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom:1px dashed #737373;
+}
+
+.task-area .puzzle-block .answer-block .btn-container{
+    margin:5px 0 10px 0;
+    padding: 0;
+}
+
+.task-area .puzzle-block .answer-block .btn-container .news-btn{
+    border-radius: 0;
+}
+.task-area .puzzle-block .phrase-block .word-block.clicked{
+    margin: 0 0 0 1px;
+    background: #4091B8;
+    color: #F1F1F1;
+    border-color: transparent;
+    animation: s ease .3s ;
+}
+
+@keyframes s {
+    0%{transform: rotate(0deg);  }
+    50%{transform: rotate(90deg);  }
+    100%{transform: rotate(0deg);  }
+}
+
+.task-area .puzzle-block .word-block .word{
+    font-size: 1em;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    outline: none!important;
+
+}
+
+.task-area .puzzle-block .word-block:hover, .task-area .puzzle-block .answer-block .puzzle-btn:hover,.task-area .puzzle-block .answer-block .puzzle-btn:focus{
+   background: #4091B8;
+    color: #F1F1F1;
+    border-color: transparent;
+    outline: none;
+}
+
+
+/*Puzzle page*/
 /*Input and Checkbox*/
 
 input[type='radio'],
@@ -2851,8 +2974,241 @@ input[type='checkbox']:checked.toggle:after {
 
 /*Input and Checkbox*/
 
-
 /*Exercise page*/
+
+/*Admin panel pages*/
+
+/*Admin panel main*/
+
+.wrapper{
+    overflow-x: hidden;
+}
+
+#top-nav-block, .footer-nav-block{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+#top-nav-block{
+    top: 0;
+ }
+
+
+.admin-panel{
+    background: #F1F1F1;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    margin-left: 320px;
+    overflow: hidden;
+    position: relative;
+}
+
+.admin-panel .panel-info-block{
+    padding: 150px 20px 20px 20px;
+}
+
+.admin-panel .full-container{
+    width: 100%!important;
+}
+
+
+/*Styles of left menu block*/
+.left-nav-section{
+    height: 100%;
+    position: fixed;
+    width: 320px;
+    background: #243740;
+    top:0;
+    left:0;
+    z-index: 80;
+    -webkit-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, 0.7);
+    -o-box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, 0.7);
+    box-shadow: inset -10px 0 6px -9px rgba(0, 0, 0, 0.7);
+}
+
+.left-fixed-block{
+    padding: 60px 20px 20px 20px!important;
+    float: left;
+}
+
+.left-nav-section .inside-block{
+    padding:180px 20px 20px 20px;
+
+}
+
+
+.left-nav-section .inside-block .header .pic{
+width: 50%;
+margin: 10px 25%;
+}
+
+.left-nav-section .inside-block .header ,.left-nav-section .inside-block .navbar-block{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.left-nav-section .inside-block .navbar-block .nav>li>a,.left-nav-section .inside-block .navbar-block .dropdown-menu li>a
+{
+    color: #ddd;
+    padding: 10px 0;
+}
+
+.left-nav-section .inside-block .navbar-block .nav>li>a span{
+   margin-left: 5px;
+
+}
+.left-nav-section .inside-block .navbar-block .nav>li{
+    width: 100%;
+}
+.left-nav-section .inside-block .navbar-block .dropdown-menu{
+    position: static;
+    width: 100%;
+    background: transparent!important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.left-nav-section .inside-block .navbar-block .nav>li>a:hover,
+.left-nav-section .inside-block .navbar-block .nav>li>a:focus,
+.left-nav-section .inside-block .navbar-block .nav>li>a:active,
+.left-nav-section .inside-block .navbar-block .nav>li.active>a,
+.left-nav-section .inside-block .navbar-block .dropdown-menu li>a:hover,
+.left-nav-section .inside-block .navbar-block .dropdown-menu li>a:focus,
+.left-nav-section .inside-block .navbar-block .dropdown-menu li>a:active,
+.left-nav-section .inside-block .navbar-block .nav .open,
+.left-nav-section .inside-block .navbar-block .nav .open>a
+{
+    color: #ffffff;
+    background: transparent!important;
+}
+.left-nav-section .inside-block .navbar-block .dropdown-menu li>a{
+    font-size: .9em;
+    padding: 7px 10px;
+}
+
+
+.left-nav-section .inside-block .header .user-info h4{
+    color: #fff;
+    line-height: 26px;
+    margin: 10px 0;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.left-nav-section .inside-block .header .user-info span.post{
+    color: #b0b0b0;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+/*Styles of left menu block*/
+
+
+
+/*Styles of right block*/
+
+.panel-info-block .test-statistic .block{
+    margin: 10px 20px;
+}
+
+.panel-info-block .test-statistic .test-block select{
+    padding: 10px;
+    font-size: 1.1em;
+    width: 100%;
+    border: 1px solid #737373;
+    background: #f1f1f1;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+
+.panel-info-block .test-statistic .test-block select option{
+    font-size: 1.1em;
+}
+
+.panel-info-block .test-statistic .test-block select:focus,.panel-info-block .test-statistic input:focus{
+    border-color: #1d517b;
+}
+
+.panel-info-block .test-statistic .test-block label{
+    font-size: 1.3em;
+    margin: 10px 0;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.admin-panel .panel-info-block .test-statistic h2{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    line-height: 28px;
+    border-bottom: 1px solid #737373;
+}
+
+.panel-info-block .test-statistic .change-form{
+    padding: 10px 0 5px 0;
+}
+
+.panel-info-block .test-statistic input{
+    border-radius: 0;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 1.1em;
+    box-shadow: none;
+}
+
+.panel-info-block .test-statistic input.form-control{
+    padding: 18px 10px;
+}
+
+.panel-info-block .test-statistic .back-side{
+    display: none;
+    padding: 0;
+}
+
+.panel-info-block .test-statistic .back-side #back{
+    border-radius: 0;
+    margin: 20px 0;
+}
+.panel-info-block .test-statistic .errors-block label{
+    text-align: center;
+    color: #7b0c10;
+    float: left;
+    width: 100%;
+}
+
+.panel-info-block .test-statistic .errors-block{
+    padding: 10px 0;
+    float: left;
+}
+
+
+/*Styles of right block*/
+
+
+
+/*Admin panel main*/
+
+
+
+/*Admin panel pages*/
+
+
+
+
+
+
+
+
+
+
+
 
 /*Media quaries  */
 @media all and  (max-width: 480px) {
