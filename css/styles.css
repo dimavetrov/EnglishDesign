@@ -2834,9 +2834,8 @@ input[type='checkbox'] + label {
     margin-top: 10px;
     color: #0b4c6a;
 }
-input[type='radio']:checked + label:after , input[type='radio'] + label:after{
-    line-height: 22px !important;
-}
+
+
 
 input[type='radio'] + label:before, input[type='radio'] + label:after,
 input[type='checkbox'] + label:before,
@@ -2888,7 +2887,7 @@ input[type='radio'] + label:hover:after, input[type='radio']:checked + label:aft
     position: absolute;
     top: 0px;
     font-size: 19px;
-    line-height: 15px;
+    line-height: 18px;
 }
 
 input[type='radio'] + label:hover:after {
@@ -3131,15 +3130,16 @@ margin: 10px 25%;
     font-size: 1.1em;
 }
 
-.panel-info-block .test-statistic .test-block select:focus,.panel-info-block .test-statistic input:focus{
+.panel-info-block .test-statistic .test-block select:focus,.panel-info-block .test-statistic input:focus,.panel-info-block .test-statistic .change-form textarea:focus{
     border-color: #1d517b;
 }
 
 .panel-info-block .test-statistic .test-block label{
     font-size: 1.3em;
-    margin: 10px 0;
+    margin: 10px 5px;
     text-transform: none;
     font-weight: 400;
+    line-height: 20px;
 }
 
 .admin-panel .panel-info-block .test-statistic h2{
@@ -3154,13 +3154,23 @@ margin: 10px 25%;
     padding: 10px 0 5px 0;
 }
 
-.panel-info-block .test-statistic input{
+.panel-info-block .test-statistic input,.panel-info-block .test-statistic .change-form textarea{
     border-radius: 0;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0 ;
     outline: none;
     font-size: 1.1em;
     box-shadow: none;
+}
+
+.panel-info-block .change-form .fileinput-filename{
+    margin: 10px 0;
+}
+
+
+
+.panel-info-block .test-statistic .radio-block{
+    padding: 10px 0;
 }
 
 .panel-info-block .test-statistic input.form-control{
@@ -3184,11 +3194,48 @@ margin: 10px 25%;
 }
 
 .panel-info-block .test-statistic .errors-block{
-    padding: 10px 0;
+    padding: 100px 0 20px 0;
     float: left;
 }
 
+.panel-info-block .test-statistic .front-side .errors-block{
+    padding: 10px 0;
+}
+.panel-info-block .test-statistic .front-side .errors-block label{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    margin: 2px 0;
+    color: #7b0c10;
+}
 
+.panel-info-block .test-statistic .teacher {
+    margin: 20px 0;
+}
+.panel-info-block .test-statistic .change-form textarea{
+    width: 100%;
+    resize: none;
+}
+
+.panel-info-block .test-statistic .back-side .task .left h3{
+    width: 100%;
+    float: none;
+}
+
+.panel-info-block .test-statistic .back-side .task .left span i{
+   margin-right: 5px;
+    color: #0b4c6a;
+}
+.panel-info-block .test-statistic .back-side .task .left span{
+   font-size: .8em;
+}
+
+
+.panel-info-block .test-statistic .back-side .task .right span{
+    width: 100%;
+    margin: 5px 0 0 0;
+
+}
 /*Styles of right block*/
 
 

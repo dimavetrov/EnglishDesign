@@ -238,15 +238,16 @@
                 <option value="Past Perfect Continious">Past Perfect Continious</option>
             </select>
 
-            <label for="student">Виберіть студента:</label>
-            <select name="student" id="student">
-                <option value="Всі студенти">Всі студенти</option>
-                <option value="Вася Пупкин">Вася Пупкин</option>
-                <option value="Вася Вялых">Вася Вялых</option>
-                <option value="Валентин Вялых">Валентин Вялых</option>
-                <option value="Вася Вялых">Вася Вялых</option>
-                <option value="Андрей Сапожников">Андрей Сапожников</option>
-            </select>
+<div class="radio-block">
+            <input id='best' type="radio" name='best' checked='checked' />
+            <label for="best">Кращі</label>
+
+            <input id='worse' type="radio" name='worse'  />
+            <label for="worse">Гірщі</label>
+
+            <input id='last' type="radio" name='last'  />
+            <label for="last">Останні</label>
+</div>
 
             <input type="button" class="news-btn btn text-center" id="test-btn" value="Вибрати">
 
@@ -259,52 +260,52 @@
                             <div class="result-grid ">
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count ok">100%</span>
                                 </div>
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count ok ">100%</span>
                                 </div>
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count middle">100%</span>
                                 </div>
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count bad">100%</span>
                                 </div>
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count">100%</span>
                                 </div>
 
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count">100%</span>
                                 </div>
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
-                                    <span class="count">100%</span>
-                                </div>
-
-                                <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count">100%</span>
                                 </div>
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count">100%</span>
                                 </div>
 
                                 <div class="task">
-                                    <h3 class="title">Present Perfect Continious</h3>
+                                    <h3 class="title">Валентин Вялых</h3>
+                                    <span class="count">100%</span>
+                                </div>
+
+                                <div class="task">
+                                    <h3 class="title">Валентин Вялых</h3>
                                     <span class="count">100%</span>
                                 </div>
 <div class="btn-container">
@@ -317,33 +318,163 @@
                         </div>
 
                     </div>
-                    <div class="block col-md-5  radius5px ">
-                            <h2>Редагування даних викладача</h2>
-                        <div class="errors-block">
-                            <label for="name">Неверное введен email </label>
-                            <label for="surname">Неверное введен пароль </label>
-                            <label for="fullname">Неверное введено отчество </label>
-                            <label for="old-pass">Неверное введено имя </label>
-                            <label for="new-pass">Неверное введена фамилия </label>
-                            <label for="repeat-pass">Пароли не совпадают </label>
-                        </div>
-                            <div class="change-form">
-                            <form action="#">
-                                <div class="fileinput fileinput-new" data-provides="fileinput">
-                                    <div class="fileinput-preview fileinput-exists " ></div>
-                                    <div>
-                                        <span class="btn btn-default btn-file"><span class="fileinput-new">Змінити фотографію</span><span class="fileinput-exists">Вибрати іншу</span><input type="file" name="..."></span>
-                                        <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Очистити</a>
+
+                        <div class="block col-md-5  radius5px ">
+                            <h2>Статистика проходження завдань</h2>
+
+                            <div class="front-side">
+                                <form action="#">
+
+                                    <div class="upper-text test-block">
+                                        <label for="test-type">Виберіть тип завдання:</label>
+                                        <select name="test-type" >
+                                            <option value="Тести">Тести</option>
+                                            <option value="Пропущене слово">Пропущене слово</option>
+                                            <option value="Пазли">Пазли</option>
+                                        </select>
+
+                                        <input type="text" id="name-student"  class="form-control" placeholder="Ім'я">
+                                        <input type="text" id="surname-student"  class="form-control" placeholder="Призвіще">
+                                        <input type="text" id="fullname-student"  class="form-control" placeholder="По-батькові">
+<div class="errors-block">
+                                        <label for="name-student">Неверно введено имя </label>
+                                        <label for="surname-student">Неверно введена фамилия </label>
+                                        <label for="fullname-student">Неверно введено отчество </label>
+</div>
+                                        <input type="button" class="news-btn btn text-center" id="test-btn" value="Вибрати">
+
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="back-side result-block">
+
+                                <div class="result-grid ">
+
+
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                        <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                        <span class="count ok">100%</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                            <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                            <span class="count ok">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                            <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                            <span class="count ok">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                            <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                            <span class="count ok">100%</span>
+                                        </div>
+                                    </div><div class="task">
+
+                                    <div class="left pull-left">
+                                        <h3 class="title">Present Perfect Continious</h3>
+                                        <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                    </div>
+                                    <div class="right pull-right">
+                                        <span class="count ok">100%</span>
                                     </div>
                                 </div>
-                                <input type="text" id="name"  class="form-control" placeholder="Ім'я">
-                                <input type="text" id="surname"  class="form-control" placeholder="Призвіще">
-                                <input type="text" id="fullname"  class="form-control" placeholder="По-батькові">
-                                <input type="text" id="old-pass"  class="form-control" placeholder="Старий пароль">
-                                <input type="text"id="new-pass"   class="form-control" placeholder="Новий пароль">
-                                <input type="text"id="repeat-pass"   class="form-control" placeholder="Повторити пароль">
-                                <input type="submit" class="news-btn btn text-center" value="Змінити дані">
-                            </form>
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                            <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                            <span class="count ok">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                            <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                            <span class="count bad">10%</span>
+                                        </div>
+                                    </div>
+                                    <div class="task">
+
+                                        <div class="left pull-left">
+                                            <h3 class="title">Present Perfect Continious</h3>
+                                            <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                        </div>
+                                        <div class="right pull-right">
+                                            <span class="count middle">60%</span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="btn-container">
+                                        <div class="btn news-btn" id="back">Назад до списку</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="block col-md-12  radius5px teacher">
+                            <h2>Редагування даних викладача</h2>
+                            <div class="change-form col-md-6">
+                                <form action="#">
+                                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                                        <div class="fileinput-filename fileinput-exists " ></div>
+                                        <div>
+                                            <span class="btn btn-default btn-file"><span class="fileinput-new">Змінити фотографію</span><span class="fileinput-exists">Вибрати іншу</span><input type="file" name="..."></span>
+                                            <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Очистити</a>
+                                        </div>
+                                    </div>
+                                    <input type="text" id="name"  class="form-control" placeholder="Ім'я">
+                                    <input type="text" id="surname"  class="form-control" placeholder="Призвіще">
+                                    <input type="text" id="fullname"  class="form-control" placeholder="По-батькові">
+                                    <input type="text" id="post"  class="form-control" placeholder="Посада">
+                                    <input type="text" id="old-pass"  class="form-control" placeholder="Старий пароль">
+                                    <input type="text"id="new-pass"   class="form-control" placeholder="Новий пароль">
+                                    <input type="text"id="repeat-pass"   class="form-control" placeholder="Повторити пароль">
+                                    <textarea name="info" id="teacher-info" cols="30" rows="6" placeholder="Введіть інформацію про викладача"></textarea>
+                                    <input type="submit" class="news-btn btn text-center" value="Змінити дані">
+                                </form>
+                            </div>
+
+                            <div class="errors-block col-md-6">
+                            <label for="name">Неверно введен email </label>
+                            <label for="surname">Неверно введен пароль </label>
+                            <label for="fullname">Неверно введено отчество </label>
+                            <label for="old-pass">Неверно введено имя </label>
+                            <label for="new-pass">Неверно введена фамилия </label>
+                            <label for="new-pass">Неверно введена должность преподователя </label>
+                            <label for="new-pass">Пустое поле информации про учителя</label>
+                            <label for="repeat-pass">Пароли не совпадают </label>
                         </div>
                         </div>
 

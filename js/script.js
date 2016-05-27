@@ -110,10 +110,6 @@ if( $(window).width >800) {
         });
 
 
-
-
-
-
 /*Puzzle*/
 
 $('.puzzle-block .word-area .word-block',this).on('click',function(){

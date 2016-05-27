@@ -21,7 +21,6 @@ leftNav.on('click',function(){
 
 
  /*Test-statistic from front-side to back-side*/
-
  $('.test-statistic .front-side #test-btn').on('click',function(){
   $('.test-statistic .front-side').slideToggle();
   $(".test-statistic .back-side").slideToggle();
@@ -31,6 +30,8 @@ leftNav.on('click',function(){
   $('.test-statistic .front-side').slideToggle();
   $(".test-statistic .back-side").slideToggle();
  });
+
+
  /*Test-statistic from front-side to back-side*/
 
 
