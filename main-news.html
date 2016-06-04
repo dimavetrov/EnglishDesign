@@ -1,0 +1,575 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Админ панель новости кафедры</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/jasny-bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"/>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+</head>
+
+<body>
+<!--
+
+ Админ панель новости кафедры
+
+ !-->
+<div class="wrapper transition3s">
+
+    <div class="up transition3s animated bounce">
+        <i class="fa-angle-up  fa"></i>
+    </div>
+
+    <section class="left-nav-section box-size ">
+        <div class="inside-block transition3s">
+
+            <div class="header">
+
+                <div class="user-info">
+                    <h4>Сапожников Андрей Олександрович</h4>
+                    <span class="post">ст. викладач</span>
+                </div>
+            </div>
+
+            <div class="navbar-block">
+                <ul class="nav navbar-nav upper-text transition3s">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Новини</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Факультативи<span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Факультативи</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Завдання<span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Факультативи</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Бібліотека<span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Факультативи</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Розклад<span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Факультативи</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Медіа галерея<span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Факультативи</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Успішність студентів </a>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Факультативи</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="top-nav-block" class="transition3s">
+        <header class="cathedra-block box-size">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-7 col-xs-12">
+                        <div class="ico">
+                            <a href="main.html"> <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="title"><h1>Кафедра Іноземної Мови</h1>
+                <span>Дніпропетровський Національний Університет імені академіка В.А.Лазаряна
+                </span>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-12">
+                        <div class="number">
+                            <span>тел: +38092123456</span>
+                        </div>
+                        <div class="btn-container pull-right">
+                            <a href="auth.html" class="btn btn-default login-btn transition3s">Войти</a>
+                            <a href="register.html" class="btn btn-default login-btn transition3s">Регистрация</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+
+        <nav class="nav-block navbar navbar-default ">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header visible-xs">
+                        <button type="button" class="navbar-toggle "
+                                data-target="#main-nav" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                    </div>
+
+                    <div id="main-nav">
+                        <ul class="nav navbar-nav transition3s">
+                            <li class="active"><a href="#">Головна</a></li>
+                            <li><a href="#">Розклад</a></li>
+                            <li><a href="#">Біблиотека</a></li>
+                            <li><a href="#">Завдання</a></li>
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="facultList.html">Факультативи</a></li>
+                            <li><a href="#">Медіа</a></li>
+                            <li><a href="#">Про кафедру</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="admin-panel box-size">
+
+        <div class="full-container">
+            <div class="row">
+                <section class="panel-info-block">
+
+                    <div class="col-md-9">
+                        <div class="block box-size transition3s radius5px admin-container">
+                            <h3 class="title-admin upper-text">Список новин кафедри</h3>
+
+                            <div class="news-panel">
+                                <div class="btn-container pull-right">
+                                    <a href="#" class="btn btn-default admin-btn"  data-toggle="modal" data-target="#add-news">Додати новину</a>
+                                </div>
+
+                                <div class="news-table">
+                                    <table class="table table-responsive  admin-table">
+                                        <thead>
+                                        <tr>
+                                            <th>Номер</th>
+                                            <th>Назва новини</th>
+                                            <th>Дата публікації</th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        <tr>
+                                            <th>1</th>
+                                            <td>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>2</th>
+                                            <td>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>3</th>
+                                            <td>
+                                                Important events of cathedra
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>4</th>
+                                            <td>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>5</th>
+                                            <td>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <th>6</th>
+                                            <td>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>7</th>
+                                            <td>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                labore et dolore magna aliqua
+                                            </td>
+
+                                            <td>
+                                                <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i>28.02.16</span>
+                                            </td>
+
+                                            <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                            </td>
+                                            <td>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </td>
+                                        </tr>
+
+
+                                        </tbody>
+                                    </table>
+
+                                    <!--Модальные окна форматировать тут!!-->
+                                    <div class="modal fade " id="add-news" tabindex="-1"
+                                         role="dialog"
+                                    >
+                                        <div class="modal-dialog "
+                                             role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button"
+                                                            class="close"
+                                                            data-dismiss="modal"
+                                                            aria-label="Close"><span
+                                                            aria-hidden="true">&times;</span>
+                                                    </button>
+
+                                                    <h4 class="modal-title">Додавання новини</h4>
+
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <div class="change-form">
+                                                        <form action="#">
+                                                            <label for="title">Введіть назву новини:</label>
+                                                            <input type="text" id="title" class="form-control" name="title"  >                                    <textarea id="editor1"  rows="10"></textarea>
+
+                                                            <h4>Виберіть мініатюру новини:</h4>
+                                                            <div class="fileinput fileinput-new " data-provides="fileinput">
+                                                                <div class="fileinput-filename fileinput-exists " ></div>
+                                                                <div>
+                                                                    <span class="btn btn-default btn-file"><span class="fileinput-new">Вибрати фотографію</span><span class="fileinput-exists">Вибрати іншу</span><input type="file" name="..."></span>
+                                                                    <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Очистити</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="errors">
+                                                                <label for="title">Пустий блок назви новини</label>
+                                                                <label> Невірний формат медіа матеріалу</label>
+                                                            </div>
+                                                            <h6>Автор: Мунтян Антоніна Олександрівна</h6>
+
+                                                        </form>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <div class="modal-footer text-center">
+                                                    <div class="btn-container">
+                                                        <a href="#" id="publish-btn" type="button"
+                                                           class="btn news-btn"
+                                                        >
+                                                            Опублікувати новину
+                                                        </a>
+                                                        <button type="button"
+                                                                class="btn news-btn"
+                                                                data-dismiss="modal"><i
+                                                                class="fa fa-times">
+                                                        </i>Закрити
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /.modal-content -->
+                                    </div>
+                                    <!--Модальные окна форматировать тут!!-->
+                                    <!--Модальные окна форматировать тут!!-->
+                                    <div class="modal fade " id="change-news" tabindex="-1"
+                                         role="dialog"
+                                    >
+                                        <div class="modal-dialog "
+                                             role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button"
+                                                            class="close"
+                                                            data-dismiss="modal"
+                                                            aria-label="Close"><span
+                                                            aria-hidden="true">&times;</span>
+                                                    </button>
+
+                                                    <h4 class="modal-title">Редагування новини</h4>
+
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <div class="change-form">
+                                                        <form action="#">
+                                                            <label for="title">Введіть назву новини:</label>
+                                                            <input type="text" id="title" class="form-control" name="title"  value="Важливі події кафедри">
+                                                            <textarea id="editor2"  rows="10"></textarea>
+
+                                                            <h4>Виберіть мініатюру новини:</h4>
+                                                            <div class="fileinput fileinput-new " data-provides="fileinput">
+                                                                <div class="fileinput-filename fileinput-exists " ></div>
+                                                                <div>
+                                                                    <span class="btn btn-default btn-file"><span class="fileinput-new">Вибрати фотографію</span><span class="fileinput-exists">Вибрати іншу</span><input type="file" name="..."></span>
+                                                                    <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Очистити</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="errors">
+                                                                <label for="title">Пустий блок назви новини</label>
+                                                                <label> Невірний формат медіа матеріалу</label>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <div class="modal-footer text-center">
+                                                    <div class="btn-container">
+                                                        <a href="#" id="publish-btn" type="button"
+                                                           class="btn news-btn"
+                                                        >
+                                                            Опублікувати новину
+                                                        </a>
+                                                        <button type="button"
+                                                                class="btn news-btn"
+                                                                data-dismiss="modal"><i
+                                                                class="fa fa-times">
+                                                        </i>Закрити
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /.modal-content -->
+                                    </div>
+                                    <!--Модальные окна форматировать тут!!-->
+
+
+                                </div>
+                            </div>
+
+
+                    </div>
+                        <div class="paginator">
+                            <div class="row">
+                                <div class="text-center animated fadeInUp  col-md-offset-2 col-md-8 wow " >
+                                    <ul class="pagination pagination-lg">
+                                        <li class="disabled hidden-xs">
+                                            <a href="#">
+                                                <i class="fa fa-chevron-left"></i>
+                                                <i class="fa fa-chevron-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="disabled">
+                                            <a href="#">
+                                                <i class="fa fa-chevron-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">6</a></li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-chevron-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="hidden-xs">
+                                            <a href="#">
+                                                <i class="fa fa-chevron-right"></i>
+                                                <i class="fa fa-chevron-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </section>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer class="cathedra-block footer-nav-block black box-size">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <div class="ico">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+                    <div class="title"><h1>Кафедра Іноземної Мови</h1>
+                 <span>Дніпропетровський Національний Університет імені академіка В.А.Лазаряна
+                </span></div>
+                </div>
+                <div class="col-md-3 col-xs-12  pull-right">
+                    <div class="number">
+                        <span>тел: +38092123456</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/salvattore.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jasny-bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
+<script src="ckeditor/samples/js/sample.js"></script>
+<script src="js/admin-js.js"></script>
+</body>
+</html>
