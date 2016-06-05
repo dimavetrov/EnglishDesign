@@ -2655,24 +2655,10 @@ border: none;
 }
 
 
-.personal  .progress-task #task-more i.transform{
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
-
-
 .personal  .progress-task .test{
     float: left;
     width: 100%;
 }
-
-.personal .task-panel{
-    float: left;
-    width: 100%;}
 
 .personal  .progress-task .btn-container {
     margin: 10px 0;
@@ -3695,6 +3681,9 @@ margin: 10px 25%;
     font-size: 1.6em;
 }
 
+.panel-info-block .admin-container  .modal-footer .btn-container{
+    margin: 0 5px;
+}
 .panel-info-block .admin-container .news-table{
     float: left;
     margin:5px 0;
@@ -3733,7 +3722,10 @@ margin: 10px 25%;
     text-align: left;
     margin-bottom: 5px;
 }
-
+.panel-info-block .admin-container .modal-body .input-block input[type='button']{
+    width: auto;
+    font-size: 1.1em;
+}
 
 .panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.correct-item i:hover,
 .panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.delete-item i:hover,
@@ -3794,9 +3786,14 @@ margin: 10px 25%;
     color: #7b0c10;
     font-size: 1.1em!important;
     width: 100%;
-    margin: 5px 0;
 }
 
+.admin-container .news-panel .modal-content .bootstrap-timepicker input{
+    margin: 0!important;
+}
+.bootstrap-timepicker-widget.dropdown-menu {
+    z-index: 1050!important;
+}
 
 .admin-container .news-panel label{
     margin: 2px 0;
@@ -3810,6 +3807,104 @@ margin: 10px 25%;
     width: 100%;
 }
 
+
+.admin-container .task-edit .explain-block{
+    padding: 20px 15px;
+    margin: 20px 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-bottom: 1px dashed #aeaeae;
+    border-top: 1px dashed #aeaeae;
+
+}
+.admin-container .task-edit .explain-block p{
+    font-size: 1.3em;
+    color: #5B5A5A;
+    margin: 5px 0;
+
+    line-height: 27px;
+}
+.admin-container .task-edit .form-task{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.admin-container .task-edit .form-task.puzzle{
+    width: 60%;
+    padding: 0 ;
+}
+.admin-container .task-edit .form-task.puzzle p.alert-single{
+    margin: 0;
+}
+
+.admin-container .task-edit .form-task.puzzle .form-control{
+    margin: 10px 0;
+}
+
+.admin-container .task-edit .form-task input[type="button"]{
+    margin: 10px 0;
+}
+
+.admin-container .task-edit .form-task .form-control,
+.admin-container .task-edit .answer-form .form-control,
+.admin-container .library-edit .form-task .form-control
+{
+    border-width:2px ;
+}
+
+.admin-container .task-edit .answer-form .answer .form-control{
+    width: 50%;
+    float: left;
+    height: 40px;
+}
+.admin-container .task-edit .answer-form .answer div.alert{
+    padding:6px ;
+    margin: 5px 0 0 0 ;
+    width: 45%;
+    float: right;
+}
+.admin-container .task-edit .answer-form .alert-single{
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.admin-container .task-edit .answer-form .answer div.alert i{
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.admin-container .task-edit .answer-form{
+    padding: 0;
+    margin:10px 0;
+}
+.admin-container .task-edit .answer-form .answer{
+    float: left;
+    width: 100%;
+    padding:5px 0;
+}
+
+.admin-container .task-edit .answer-block{
+    display: none;
+}
+
+.admin-panel .panel-info-block .news-table tbody  tr td{
+    text-align: left;
+}
+.admin-panel .panel-info-block .news-table tbody  tr th{
+    text-align: center;
+}
+
+.admin-container .library-edit {
+    padding: 20px 0;
+}
+
+.admin-container .page-edit .comments-block .comment .right-side span i{
+    margin-top: 0!important;
+    padding: 5px 0;
+}
 
     /*Admin panel news of cathedra*/
 
@@ -3969,54 +4064,31 @@ padding: 10px 0;
 
 /*Admin schedule edit page    */
 
- .panel-info-block .add-block .schedule-edit .block-edit
-{
-    padding: 0;
-    border: 1px solid #BFB8B8;
-    margin: 20px 10px;
-width: 28%;
-}
-  .panel-info-block .add-block .schedule-edit .block-edit .input-block{
-    padding: 20px;
 
+.panel-info-block .add-block .schedule-edit .control{
+    margin: 20px 0;
 }
 
-  .panel-info-block .add-block .schedule-edit .block-edit .title-block{
-    padding: 20px 0;
-    color: #fff;
-    background: #243740;
-}
 
-  .panel-info-block .add-block .schedule-edit .block-edit .input-block select{
-    border-radius: 0;
-    margin: 5px 0;
-    box-shadow: none;
-}
-  .panel-info-block .add-block .schedule-edit .block-edit .input-block input.news-btn{
+.panel-info-block .add-block .schedule-edit .table-block  tbody td a .data-table{
     width: 100%;
-    margin: 10px 0;
-}
-.panel-info-block .add-block .schedule-edit .block-edit .input-block .timepicker input{
-    margin: 0;
-}
-.panel-info-block .add-block .schedule-edit .block-edit .input-block .timepicker span{
-    border-radius: 0;
-}
+    height: 100%;
 
-.panel-info-block .add-block .schedule-edit .block-edit .input-block .timepicker{
-    margin: 5px 0;
+}
+.panel-info-block .add-block .schedule-edit .table-block  tbody td a .data-table span{
     float: left;
     width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    padding-top:5px ;
 }
 
-.panel-info-block .add-block .schedule-edit .block-edit textarea{
-    min-height: 100px;
-}
+
+
 
 .panel-info-block .add-block .sked .pic,
 .panel-info-block .add-block .konsult .pic,
 .panel-info-block .add-block .type-block .test .pic
-
 {
     width: 30%;
     margin: 5px 35%;
@@ -4031,7 +4103,9 @@ width: 28%;
     margin: 5px 20px;
 }
 
-
+.panel-info-block .schedule-edit .table-block{
+    margin: 40px 0;
+}
 .panel-info-block .add-block .sked.active,
 .panel-info-block .add-block .konsult.active,
 .panel-info-block .add-block .type-block .test.active
@@ -4065,6 +4139,8 @@ width: 28%;
 {
     padding: 20px 0;
 }
+
+
 
 /*Admin schedule edit page    */
 

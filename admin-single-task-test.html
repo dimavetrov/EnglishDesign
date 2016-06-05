@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Админ панель стрічка завдань</title>
+    <title>Админ панель додавання завдання: Тест</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -19,7 +19,7 @@
 <body>
 <!--
 
- Админ панель стрічка завдань
+ Админпанель додавання завдання:Тест
 
  !-->
 <div class="wrapper transition3s">
@@ -181,165 +181,66 @@
                             <div class="news-panel">
 
                                 <div class="add-block">
-                                    <h3 class="text-center">Редагування завдання кафедри: Тести</h3>
-                                    <h4 class="text-center">Редагування папки: Present Perfect Continious</h4>
+                                    <h3 class="text-center">Додавання завдання кафедри: Тест</h3>
+                                <!--    <h3 class="text-center">Редагування завдання кафедри: Тест</h3>!-->
+
 
 
                                     <div class="task-edit">
 
-<div class="btn-container">
-    <a href="#" class="btn admin-btn pull-right">Нове завдання</a>
-</div>
-                                        <div class="news-table">
-                                            <table class="table table-responsive  admin-table">
-                                                <thead>
-                                                <tr>
-                                                    <th>Номер</th>
-                                                    <th>Назва завдання</th>
-                                                    <th></th>
-                                                    <th></th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
+                                        <div class="explain-block">
+                                            <p>Крок 1: Впишіть речення на іноземній мові. Натисніть на копку "Продовжити".</p>
+                                        </div>
+                                        <div class="form-task">
+                                            <label for="test-sentense">Впишіть речення:</label>
+                                            <input type="text" class="form-control" id="test-sentense" value="The sentence of this task is hidden. It is Great!">
+                                            <input type="button"  class="btn btn-primary" value="Продовжити" id="next-step">
+                                        </div>
 
-                                                <tr>
-                                                    <th>1</th>
-                                                    <td>
-                                                        Present Simple
-                                                    </td>
+                                        <div class="answer-block transition3s">
 
+                                        <div class="explain-block">
+                                            <p>Крок 2: Виберіть одну привильну відповідь зі списку нижче. Впишіть три неправильні відповіді. Натисніть на кнопку "Підтвердити".</p>
+                                        </div>
+                                        <div class="answer-form col-md-6">
+                                            <div class="answer">
+                                                <select id="right-answer" class="form-control">
+                                                    <option value="sentence">sentence</option>
+                                                    <option value="The">The</option>
+                                                    <option value="hidden">hidden</option>
+                                                    <option value="Great">Great</option>
+                                                    <option value="sentence">sentence</option>
+                                                </select>
+                                                <div class="alert-success text-center alert"> <i class="fa fa-check" aria-hidden="true"></i>
+                                                    Правильна відповідь</div>
 
+                                            </div>
 
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
+                                            <div class="answer">
+                                                <input type="text" class="form-control" id="wrong1" value="hidden">
+                                                <div class="alert-danger text-center alert"><i class="fa fa-times" aria-hidden="true"></i>
+                                                    Неправильна відповідь</div>
+                                            </div>
 
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
+                                            <div class="answer">
+                                                <input type="text" class="form-control" id="wrong2" value="hidden">
+                                                <div class="alert-danger text-center alert"><i class="fa fa-times" aria-hidden="true"></i>
+                                                    Неправильна відповідь</div>
+                                            </div>
 
-                                                <tr>
-                                                    <th>2</th>
-                                                    <td>
-                                                        Present Simple
-                                                    </td>
+                                            <div class="answer">
+                                                <input type="text" class="form-control" id="wrong3" value="hidden">
+                                                <div class="alert-danger text-center alert"><i class="fa fa-times" aria-hidden="true"></i>
+                                                    Неправильна відповідь</div>
+                                            </div>
+                                            <label for="accept-btn" class="alert alert-info alert-single">Завдання успішно додано</label>
 
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>3</th>
-                                                    <td>
-                                                        Past  Simple
-                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>4</th>
-                                                    <td>
-                                                        Past Perfect Continious                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>5</th>
-                                                    <td>
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                                        labore et dolore magna aliqua
-                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-
-                                                <tr>
-                                                    <th>6</th>
-                                                    <td>
-                                                        Movie Club - Important meeting of video movies
-                                                    </td>
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>7</th>
-                                                    <td>
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                                        labore et dolore magna aliqua
-                                                    </td>
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-
-                                                </tbody>
-                                            </table>
+                                            <input type="button"  class="btn btn-primary" value="Підтвердити" id="accept-btn">
 
                                         </div>
+
+                                        </div>
+
 
                                     </div>
 

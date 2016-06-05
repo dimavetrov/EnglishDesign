@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Админ панель стрічка завдань</title>
+    <title>Админ панель додавання літератури</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -19,7 +19,7 @@
 <body>
 <!--
 
- Админ панель стрічка завдань
+ Админпанель додавання літератури
 
  !-->
 <div class="wrapper transition3s">
@@ -181,165 +181,26 @@
                             <div class="news-panel">
 
                                 <div class="add-block">
-                                    <h3 class="text-center">Редагування завдання кафедри: Тести</h3>
-                                    <h4 class="text-center">Редагування папки: Present Perfect Continious</h4>
+                                    <h3 class="text-center">Додавання методичного посібника</h3>
+                               <!--     <h3 class="text-center">Редагування методичного посібника</h3>!-->
 
 
-                                    <div class="task-edit">
+                                    <div class="library-edit">
 
-<div class="btn-container">
-    <a href="#" class="btn admin-btn pull-right">Нове завдання</a>
-</div>
-                                        <div class="news-table">
-                                            <table class="table table-responsive  admin-table">
-                                                <thead>
-                                                <tr>
-                                                    <th>Номер</th>
-                                                    <th>Назва завдання</th>
-                                                    <th></th>
-                                                    <th></th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-
-                                                <tr>
-                                                    <th>1</th>
-                                                    <td>
-                                                        Present Simple
-                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>2</th>
-                                                    <td>
-                                                        Present Simple
-                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>3</th>
-                                                    <td>
-                                                        Past  Simple
-                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>4</th>
-                                                    <td>
-                                                        Past Perfect Continious                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>5</th>
-                                                    <td>
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                                        labore et dolore magna aliqua
-                                                    </td>
-
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-
-                                                <tr>
-                                                    <th>6</th>
-                                                    <td>
-                                                        Movie Club - Important meeting of video movies
-                                                    </td>
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>7</th>
-                                                    <td>
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                                        labore et dolore magna aliqua
-                                                    </td>
-
-
-                                                    <td>
-            <span class="correct-item">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            </span>
-
-                                                    </td>
-                                                    <td>
-                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
-                                                    </td>
-                                                </tr>
-
-
-                                                </tbody>
-                                            </table>
-
+                                        <div class="form-task">
+                                            <label for="book-title">Введіть назву методичного посібника:</label>
+                                            <input type="text" class="form-control" id="book-title" placeholder="Назва  посібника">
+                                            <label for="author-book">Введіть автора методичного посібника:</label>
+                                            <input type="text" class="form-control" id="author-book" placeholder="Автор посібника">
+                                            <label for="year-book">Введіть рік видання методичного посібника:</label>
+                                            <input type="text" class="form-control" id="year-book" placeholder="Рік виддання ">
+                                            <label for="short-note">Напишіть коротку інформацію про методичний посібник:</label>
+                                            <textarea  class="form-control" id="short-note" placeholder="Коротка інформація про методичний посібник"></textarea>
+                                            <input type="button"  class="btn admin-btn" value="Додати посібник" id="accept">
                                         </div>
+
+
+
 
                                     </div>
 

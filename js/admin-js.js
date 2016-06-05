@@ -111,8 +111,26 @@ leftNav.on('click',function(){
 
  //Scrollbar for left panel
 
-
-
+/*
+*
+* The script for time picker for modal of the schedule
+*
+* */
+ $('#start').timepicker({
+  minuteStep:15,
+  showSeconds: false ,
+  showMeridian: false
+ });
+ $('#end').timepicker({
+  minuteStep: 15,
+  showSeconds: false ,
+  showMeridian: false
+ });
+ /*
+  *
+  * The script for time picker for modal of the schedule
+  *
+  * */
 
  //CKEDITOR
 
@@ -130,6 +148,11 @@ leftNav.on('click',function(){
 
  //CKEDITOR
 
+
+});
+
+$('#next-step').on('click',function(){
+ $('.answer-block').slideToggle();
 
 });
 
