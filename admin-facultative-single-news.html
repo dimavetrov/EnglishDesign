@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/jasny-bootstrap.min.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/bootstrap-wysihtml5.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"/>
-
     <link rel="stylesheet" href="css/styles.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic' rel='stylesheet'
           type='text/css'>
@@ -187,7 +187,7 @@
                                         <label for="title">Введіть назву новини:</label>
                                         <input type="text" id="title" class="form-control" name="title"
                                                value="Важливі події кафедри">
-                                        <textarea id="editor1" rows="10"></textarea>
+                                        <textarea id="facult-news" rows="10"></textarea>
 
                                         <h4>Виберіть мініатюру новини:</h4>
                                         <div class="fileinput fileinput-new " data-provides="fileinput">
@@ -201,10 +201,7 @@
                                                    data-dismiss="fileinput">Очистити</a>
                                             </div>
                                         </div>
-                                        <div class="errors">
-                                            <label for="title">Пустий блок назви новини</label>
-                                            <label> Невірний формат медіа матеріалу</label>
-                                        </div>
+
                                     </form>
                                 </div>
 
@@ -226,12 +223,13 @@
                                                 </figure>
                                                 <span>Виберіть файл&hellip;</span></label>
                                         </div>
+                                        <h6 class="alert-info text-center alert">Файл успішно завантажений</h6>
+    
                                         <div class="btn-container text-center">
                                             <a href="#" class="btn admin-btn">Завантажити</a>
                                             <a href="#" class="btn  btn-danger ">Очистити</a>
 
                                         </div>
-                                        <h6 class="alert-info text-center alert">Файл успішно завантажений</h6>
                                     </div>
 
 
@@ -250,12 +248,12 @@
                                                 <span>Виберіть файл&hellip;</span></label>
 
                                         </div>
+                                        <h6 class="alert-info text-center alert">Файл успішно завантажений</h6>
+
                                         <div class="btn-container text-center">
                                             <a href="#" class="btn admin-btn">Завантажити</a>
                                             <a href="#" class="btn  btn-danger ">Очистити</a>
-
                                         </div>
-                                        <h6 class="alert-info text-center alert">Файл успішно завантажений</h6>
 
                                     </div>
 
@@ -271,12 +269,18 @@
                                             <li>http://www.youtube.com/watch?v=UzifCbU_gJU&feature=related</li>
                                             <li>http://youtu.be/UzifCbU_gJU</li>
                                         </ul>
+                                        <h6 class="alert-info  alert">Файл успішно завантажений</h6>
+
                                         <div class="btn-container ">
                                             <a href="#" class="btn admin-btn">Завантажити</a>
                                         </div>
-                                        <h6 class="alert-info  alert">Файл успішно завантажений</h6>
                                     </div>
 
+                                </div>
+
+                                <div class="errors">
+                                    <label for="title" class="alert alert-danger">Пустий блок назви новини</label>
+                                    <label class="alert alert-danger"> Невірний формат медіа матеріалу</label>
                                 </div>
                                 <div class="btn-container">
                                     <a href="#" class="btn news-btn">Опублікувати новину</a>
@@ -511,8 +515,9 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jasny-bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
-<script src="ckeditor/ckeditor.js"></script>
-<script src="ckeditor/samples/js/sample.js"></script>
+<script src="js/wysihtml5-0.3.0.min.js"></script>
+
+<script src="js/bootstrap-wysihtml5.js"></script>
 <script src="js/admin-js.js"></script>
 </body>
 </html>

@@ -111,52 +111,69 @@ leftNav.on('click',function(){
 
  //Scrollbar for left panel
 
-/*
-*
-* The script for time picker for modal of the schedule
-*
-* */
- $('#start').timepicker({
-  minuteStep:15,
-  showSeconds: false ,
-  showMeridian: false
- });
- $('#end').timepicker({
-  minuteStep: 15,
-  showSeconds: false ,
-  showMeridian: false
- });
- /*
-  *
-  * The script for time picker for modal of the schedule
-  *
-  * */
 
- //CKEDITOR
 
- var ckeditor1 = CKEDITOR.replace( 'editor1' );
- AjexFileManager.init({
-  returnTo: 'ckeditor',
-  editor: ckeditor1
+
+ //wysihtml5 - Editor for textarea
+
+ $('#history').wysihtml5({
+  "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+  "emphasis": true, //Italics, bold, etc. Default true
+  "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+  "html": true, //Button which allows you to edit the generated HTML. Default false
+  "link": true, //Button to insert a link. Default true
+  "image": false, //Button to insert an image. Default true,
+  "color": false //Button to change color of font
+ });
+ $('#science').wysihtml5({
+  "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+  "emphasis": true, //Italics, bold, etc. Default true
+  "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+  "html": true, //Button which allows you to edit the generated HTML. Default false
+  "link": true, //Button to insert a link. Default true
+  "image": false, //Button to insert an image. Default true,
+  "color": false //Button to change color of font
  });
 
- var ckeditor2 = CKEDITOR.replace( 'editor2' );
- AjexFileManager.init({
-  returnTo: 'ckeditor',
-  editor: ckeditor2
+ $('#subject').wysihtml5({
+  "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+  "emphasis": true, //Italics, bold, etc. Default true
+  "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+  "html": true, //Button which allows you to edit the generated HTML. Default false
+  "link": true, //Button to insert a link. Default true
+  "image": false, //Button to insert an image. Default true,
+  "color": false //Button to change color of font
+ });
+ $('#facult-news').wysihtml5({
+  "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+  "emphasis": true, //Italics, bold, etc. Default true
+  "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+  "html": true, //Button which allows you to edit the generated HTML. Default false
+  "link": true, //Button to insert a link. Default true
+  "image": false, //Button to insert an image. Default true,
+  "color": false //Button to change color of font
+ });
+ $('#cathedra-news').wysihtml5({
+  "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+  "emphasis": true, //Italics, bold, etc. Default true
+  "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+  "html": true, //Button which allows you to edit the generated HTML. Default false
+  "link": true, //Button to insert a link. Default true
+  "image": false, //Button to insert an image. Default true,
+  "color": false //Button to change color of font
  });
 
- //CKEDITOR
+//wysihtml5 - Editor for textarea
 
 
-});
+
+
 
 $('#next-step').on('click',function(){
  $('.answer-block').slideToggle();
-
 });
 
-
+});
 'use strict';
 
 ;( function( $, window, document, undefined )

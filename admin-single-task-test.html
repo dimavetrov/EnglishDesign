@@ -182,9 +182,164 @@
 
                                 <div class="add-block">
                                     <h3 class="text-center">Додавання завдання кафедри: Тест</h3>
-                                <!--    <h3 class="text-center">Редагування завдання кафедри: Тест</h3>!-->
 
 
+                                    <div class="task-edit hidden">
+
+                                        <div class="btn-container ">
+                                            <a href="#" class="btn admin-btn pull-right">Нове завдання</a>
+                                        </div>
+                                        <div class="news-table">
+                                            <table class="table table-responsive  admin-table">
+                                                <thead>
+                                                <tr>
+                                                    <th>Номер</th>
+                                                    <th>Назва завдання</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                <tr>
+                                                    <th>1</th>
+                                                    <td>
+                                                        Present Simple
+                                                    </td>
+
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>2</th>
+                                                    <td>
+                                                        Present Simple
+                                                    </td>
+
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>3</th>
+                                                    <td>
+                                                        Past  Simple
+                                                    </td>
+
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>4</th>
+                                                    <td>
+                                                        Past Perfect Continious                                                    </td>
+
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>5</th>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                        labore et dolore magna aliqua
+                                                    </td>
+
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th>6</th>
+                                                    <td>
+                                                        Movie Club - Important meeting of video movies
+                                                    </td>
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>7</th>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                        labore et dolore magna aliqua
+                                                    </td>
+
+
+                                                    <td>
+            <span class="correct-item">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            </span>
+
+                                                    </td>
+                                                    <td>
+                                                        <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                                    </td>
+                                                </tr>
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
 
                                     <div class="task-edit">
 
@@ -194,6 +349,8 @@
                                         <div class="form-task">
                                             <label for="test-sentense">Впишіть речення:</label>
                                             <input type="text" class="form-control" id="test-sentense" value="The sentence of this task is hidden. It is Great!">
+                                            <p class="alert-danger alert">Пусте поле введення речення</p>
+
                                             <input type="button"  class="btn btn-primary" value="Продовжити" id="next-step">
                                         </div>
 
@@ -233,7 +390,11 @@
                                                 <div class="alert-danger text-center alert"><i class="fa fa-times" aria-hidden="true"></i>
                                                     Неправильна відповідь</div>
                                             </div>
+                                            <p class="alert-danger alert">Пусте поле введення неправильної відповіді</p>
+                                            <p class="alert-danger alert">Пусте поле введення неправильної відповіді</p>
+                                            <p class="alert-danger alert">Пусте поле введення неправильної відповіді</p>
                                             <label for="accept-btn" class="alert alert-info alert-single">Завдання успішно додано</label>
+
 
                                             <input type="button"  class="btn btn-primary" value="Підтвердити" id="accept-btn">
 
@@ -255,42 +416,6 @@
                             </div>
 
 
-                        </div>
-                        <div class="paginator">
-                            <div class="row">
-                                <div class="text-center animated fadeInUp  col-md-offset-2 col-md-8 wow " >
-                                    <ul class="pagination pagination-lg">
-                                        <li class="disabled hidden-xs">
-                                            <a href="#">
-                                                <i class="fa fa-chevron-left"></i>
-                                                <i class="fa fa-chevron-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="disabled">
-                                            <a href="#">
-                                                <i class="fa fa-chevron-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#">5</a></li>
-                                        <li><a href="#">6</a></li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-chevron-right"></i>
-                                            </a>
-                                        </li>
-                                        <li class="hidden-xs">
-                                            <a href="#">
-                                                <i class="fa fa-chevron-right"></i>
-                                                <i class="fa fa-chevron-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
 
 

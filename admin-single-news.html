@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/jasny-bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-wysihtml5.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -186,7 +187,7 @@
                                         <label for="title">Введіть назву новини:</label>
                                         <input type="text" id="title" class="form-control" name="title"
                                                >
-                                        <textarea id="editor1" rows="10"></textarea>
+                                        <textarea id="cathedra-news" rows="10"></textarea>
 
                                         <h4>Виберіть мініатюру новини:</h4>
                                         <div class="fileinput fileinput-new " data-provides="fileinput">
@@ -205,8 +206,8 @@
                                             <label for="check-1">Важлива новина</label>
                                         </div>
                                         <div class="errors">
-                                            <label for="title">Пустий блок назви новини</label>
-                                            <label> Невірний формат медіа матеріалу</label>
+                                            <label for="title" class="alert alert-danger">Пустий блок назви новини</label>
+                                            <label class="alert alert-danger"> Невірний формат медіа матеріалу</label>
                                         </div>
                                     </form>
                                 </div>
@@ -261,12 +262,13 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/wysihtml5-0.3.0.min.js"></script>
 <script src="js/salvattore.min.js"></script>
+<script src="js/bootstrap-wysihtml5.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jasny-bootstrap.min.js"></script>
+
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
-<script src="ckeditor/ckeditor.js"></script>
-<script src="ckeditor/samples/js/sample.js"></script>
 <script src="js/admin-js.js"></script>
 </body>
 </html>

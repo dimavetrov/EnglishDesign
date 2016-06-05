@@ -1,12 +1,13 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Админ панель додавання літератури</title>
+    <title>Админ панель кафедри</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/jasny-bootstrap.min.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/bootstrap-wysihtml5.css"/>
     <link rel="stylesheet" href="css/bootstrap-timepicker.min.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -19,7 +20,7 @@
 <body>
 <!--
 
- Админпанель додавання літератури
+ Админ панельформатування кафедри
 
  !-->
 <div class="wrapper transition3s">
@@ -181,27 +182,25 @@
                             <div class="news-panel">
 
                                 <div class="add-block">
-                                    <h3 class="text-center">Додавання методичного посібника</h3>
-                               <!--     <h3 class="text-center">Редагування методичного посібника</h3>!-->
+                                    <div class="page-edit">
+
+                                    <h3 class="text-center upper-text title-admin">Форматування сторінки кафедри</h3>
 
 
-                                    <div class="library-edit">
+<div class="change-block">
 
-                                        <div class="form-task">
-                                            <label for="book-title">Введіть назву методичного посібника:</label>
-                                            <input type="text" class="form-control" id="book-title" placeholder="Назва  посібника">
-                                            <label for="author-book">Введіть автора методичного посібника:</label>
-                                            <input type="text" class="form-control" id="author-book" placeholder="Автор посібника">
-                                            <label for="year-book">Введіть рік видання методичного посібника:</label>
-                                            <input type="text" class="form-control" id="year-book" placeholder="Рік виддання ">
-                                            <label for="short-note">Напишіть коротку інформацію про методичний посібник:</label>
-                                            <textarea  class="form-control" id="short-note" placeholder="Коротка інформація про методичний посібник"></textarea>
-                                            <input type="button"  class="btn admin-btn" value="Додати посібник" id="accept">
+                                        <h4 class="text-center">Редагування інформації про історію кафедри</h4>
+    <textarea id="history"></textarea>
+</div>
+
+                                        <div class="change-block">
+                                            <h4 class="text-center">Редагування інформації про дисципліни кафедри</h4>
+                                            <textarea id="subject" rows="10"></textarea>
                                         </div>
-
-
-
-
+                                        <div class="change-block">
+                                            <h4 class="text-center">Редагування інформації про наукову роботу кафедри</h4>
+                                            <textarea id="science" rows="10"></textarea>
+                                        </div>
                                     </div>
 
 
@@ -216,6 +215,7 @@
 
 
                         </div>
+
 
                     </div>
 
@@ -251,17 +251,17 @@
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wysihtml5-0.3.0.min.js"></script>
+<script src="js/bootstrap-wysihtml5.js"></script>
 <script src="js/bootstrap-timepicker.js"></script>
-
 <script src="js/waypoints.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/salvattore.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jasny-bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
-<script src="ckeditor/ckeditor.js"></script>
-<script src="ckeditor/samples/js/sample.js"></script>
 <script src="js/admin-js.js"></script>
+
 
 </body>
 </html>

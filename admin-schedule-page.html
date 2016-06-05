@@ -385,7 +385,7 @@
                             aria-hidden="true">&times;</span>
                     </button>
 
-                    <h4 class="modal-title">Понеділок</h4>
+                    <h4 class="modal-title text-center">Понеділок</h4>
 
                 </div>
 
@@ -400,8 +400,8 @@
                         <input type="text" id="group"  class="form-control">
 
                         <div class="errors">
-                            <label for="place-schedule">Пусте поле введення номеру аудиторії</label>
-                            <label for="group">Пусте поле введення номеру групи</label>
+                            <label for="place-schedule" class="alert alert-danger"> Пусте поле введення номеру аудиторії</label>
+                            <label for="group" class="alert alert-danger">Пусте поле введення номеру групи</label>
                         </div>
                         <div class="btn-container ">
                             <input type="button" class="btn admin-btn  btn-sm" value="Сохранити дані">
@@ -444,7 +444,7 @@
                             aria-hidden="true">&times;</span>
                     </button>
 
-                    <h4 class="modal-title">Понеділок</h4>
+                    <h4 class="modal-title text-center">Понеділок</h4>
 
                 </div>
 
@@ -466,15 +466,15 @@
                             <input id="end" type="text" class="form-control ">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
                         </div>
-                        <label for="note">Напишіть замітку:</label>
+                        <label for="note" >Напишіть замітку:</label>
                         <textarea class="form-control"  id="note" placeholder="Замітка"></textarea>
 
                         <div class="errors">
-                            <label for="place">Пусте поле введення номеру аудиторії</label>
-                            <label for="note">Пусте поле замітки</label>
-                            <label for="start">Пусте поле введення початку консультації</label>
-                            <label for="end">Пусте поле введення закінчення консультації</label>
-                            <label for="note">Закінчення консультації не може бути раніше початку консультації</label>
+                            <label for="place" class="alert alert-danger">Пусте поле введення номеру аудиторії</label>
+                            <label for="note" class="alert alert-danger">Пусте поле замітки</label>
+                            <label for="start" class="alert alert-danger">Пусте поле введення початку консультації</label>
+                            <label for="end" class="alert alert-danger">Пусте поле введення закінчення консультації</label>
+                            <label for="note" class="alert alert-danger">Закінчення консультації не може бути раніше початку консультації</label>
                         </div>
                         <div class="btn-container">
                             <input type="button" class="btn admin-btn" value="Сохранити дані">
@@ -752,6 +752,18 @@
 <script src="ckeditor/ckeditor.js"></script>
 <script src="ckeditor/samples/js/sample.js"></script>
 <script src="js/admin-js.js"></script>
+<script type="text/javascript">
+    $('#start').timepicker({
+        minuteStep:15,
+        showSeconds: false ,
+        showMeridian: false
+    });
+    $('#end').timepicker({
+        minuteStep: 15,
+        showSeconds: false ,
+        showMeridian: false
+    });
+</script>
 
 </body>
 </html>
