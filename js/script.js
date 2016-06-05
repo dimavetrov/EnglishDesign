@@ -125,12 +125,16 @@ $('.puzzle-block .answer-block .puzzle-btn',this).on('click',function(){
 
 
 
+    $('.progress .progress-bar').progressbar({display_text: 'fill', use_percentage: true});
+
 /*Puzzle*/
 
 });
 
 
-
+$('.progress-task .result-block').mCustomScrollbar({
+    theme:"minimal-dark"
+});
 
 
 

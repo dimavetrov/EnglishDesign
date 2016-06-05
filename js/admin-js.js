@@ -98,6 +98,8 @@ leftNav.on('click',function(){
 
 
 
+
+
 //Scrollbar for left panel
 
  $('.left-nav-section').mCustomScrollbar({
