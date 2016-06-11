@@ -224,7 +224,7 @@
                                                 <span>Виберіть файл&hellip;</span></label>
                                         </div>
                                         <h6 class="alert-info text-center alert">Файл успішно завантажений</h6>
-    
+
                                         <div class="btn-container text-center">
                                             <a href="#" class="btn admin-btn">Завантажити</a>
                                             <a href="#" class="btn  btn-danger ">Очистити</a>
@@ -516,8 +516,18 @@
 <script src="js/jasny-bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
 <script src="js/wysihtml5-0.3.0.min.js"></script>
-
 <script src="js/bootstrap-wysihtml5.js"></script>
 <script src="js/admin-js.js"></script>
+<script type="text/javascript">
+    $('#facult-news').wysihtml5({
+        "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+        "emphasis": true, //Italics, bold, etc. Default true
+        "lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+        "html": true, //Button which allows you to edit the generated HTML. Default false
+        "link": true, //Button to insert a link. Default true
+        "image": false, //Button to insert an image. Default true,
+        "color": false //Button to change color of font
+    });
+</script>
 </body>
 </html>
