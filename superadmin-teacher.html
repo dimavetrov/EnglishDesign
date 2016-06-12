@@ -1,16 +1,16 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Админ панель додавання літератури</title>
+    <title>Додавання викладачів</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/jasny-bootstrap.min.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
-    <link rel="stylesheet" href="css/bootstrap-timepicker.min.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"/>
+
     <link rel="stylesheet" href="css/styles.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic' rel='stylesheet'
           type='text/css'>
@@ -19,8 +19,7 @@
 <body>
 <!--
 
- Админпанель додавання літератури
-
+Додавання викладачів
  !-->
 <div class="wrapper transition3s">
 
@@ -28,15 +27,12 @@
         <i class="fa-angle-up  fa"></i>
     </div>
 
-
-    <section class="left-nav-section box-size transition3s ">
+    <section class="left-nav-section box-size ">
         <div class="inside-block transition3s">
 
             <div class="header">
-
                 <div class="user-info">
-                    <h4>Сапожников Андрей Олександрович</h4>
-                    <span class="post">ст. викладач</span>
+                    <h4>Адміністратор</h4>
                 </div>
             </div>
 
@@ -143,6 +139,7 @@
                 <div class="row">
                     <div class="navbar-header visible-xs">
                         <div id="smallBtn">Бокове меню</div>
+
                         <button type="button" class="navbar-toggle "
                                 data-target="#main-nav" aria-expanded="false">
                             <span class="icon-bar"></span>
@@ -177,47 +174,135 @@
 
                     <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
                         <div class="block box-size transition3s radius5px admin-container">
+                            <h3 class="title-admin upper-text">Список викладачів кафедри</h3>
 
                             <div class="news-panel">
 
-                                <div class="add-block">
-                                    <h3 class="text-center">Додавання методичного посібника</h3>
-                               <!--     <h3 class="text-center">Редагування методичного посібника</h3>!-->
 
-
-                                    <div class="library-edit">
-
-                                        <div class="form-task">
-                                            <label for="book-title">Введіть назву методичного посібника:</label>
-                                            <input type="text" class="form-control" id="book-title" placeholder="Назва  посібника">
-                                            <label for="author-book">Введіть автора методичного посібника:</label>
-                                            <input type="text" class="form-control" id="author-book" placeholder="Автор посібника">
-                                            <label for="year-book">Введіть рік видання методичного посібника:</label>
-                                            <input type="text" class="form-control" id="year-book" placeholder="Рік виддання ">
-                                            <label for="short-note">Напишіть коротку інформацію про методичний посібник:</label>
-                                            <textarea  class="form-control" id="short-note" placeholder="Коротка інформація про методичний посібник"></textarea>
-                                            <input type="button"  class="btn admin-btn" value="Додати посібник" id="accept">
-                                        </div>
-
-
-
-
-                                    </div>
-
-
-
+                                <div class="btn-container pull-right">
+                                    <a href="superadmin-insert-teacher.html" class="btn btn-default admin-btn">Новий викладач</a>
                                 </div>
 
 
+                                <div class="news-table">
+                                    <table class="table table-responsive  admin-table">
+                                        <thead>
+                                        <tr>
+                                            <th>Номер</th>
+                                            <th>ФІО викладача</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        <tr>
+                                            <th>1</th>
+                                            <td>
+Мунтян Антоніна Олександрівна
+                                            </td>
 
 
 
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <th>2</th>
+                                            <td>
+                                                Мунтян Антоніна Олександрівна
+                                            </td>
+
+
+
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <th>3</th>
+                                            <td>
+                                                Мунтян Антоніна Олександрівна
+                                            </td>
+
+
+
+
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <th>4</th>
+                                            <td>
+                                                Мунтян Антоніна Олександрівна
+                                            </td>
+
+
+
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <th>5</th>
+                                            <td>
+                                                Мунтян Антоніна Олександрівна
+                                            </td>
+
+
+
+
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+
+                                        <tr>
+                                            <th>6</th>
+                                            <td>
+                                                Мунтян Антоніна Олександрівна
+                                            </td>
+
+
+
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <th>7</th>
+                                            <td>
+                                                Мунтян Антоніна Олександрівна
+                                            </td>
+
+
+
+
+                                            <th>
+                                                <span class="delete-item"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </th>
+                                        </tr>
+
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
                             </div>
 
 
                         </div>
 
+
                     </div>
+
 
 
                 </section>
@@ -225,6 +310,7 @@
         </div>
 
     </section>
+
 
 
     <footer class="cathedra-block footer-nav-block black box-size">
@@ -251,14 +337,13 @@
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-timepicker.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/salvattore.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jasny-bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.min.js"></script>
-<script src="js/admin-js.js"></script>
 
+<script src="js/admin-js.js"></script>
 </body>
 </html>

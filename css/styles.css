@@ -2934,6 +2934,7 @@ input[type='radio'] + label:hover:after, input[type='radio']:checked + label:aft
     top: 0px;
     font-size: 19px;
     line-height: 18px;
+    color: #ffffff;
 }
 
 input[type='radio'] + label:hover:after {
@@ -3587,14 +3588,14 @@ margin: 10px 25%;
     border-radius: 0;
     margin: 20px 0;
 }
-.panel-info-block .test-statistic .errors-block label{
+.panel-info-block .test-statistic .errors-block label,.panel-info-block .add-block .errors-block label {
     text-align: center;
     color: #7b0c10;
     float: left;
     width: 100%;
 }
 
-.panel-info-block .test-statistic .errors-block{
+.panel-info-block .test-statistic .errors-block,.panel-info-block .add-block .errors-block {
     padding: 100px 0 20px 0;
     float: left;
 }
@@ -3690,6 +3691,7 @@ margin: 10px 25%;
 .panel-info-block .admin-container .news-table{
     float: left;
     margin:5px 0;
+    width: 100%;
 }
 
 .panel-info-block .admin-container .news-table .admin-table  tbody > tr > td ,
@@ -3708,13 +3710,16 @@ margin: 10px 25%;
     color: #ffffff;
     font-weight: 500;
 }
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span i{
+.panel-info-block .admin-container .news-table .admin-table  thead > tr th{
+    font-weight: 400!important;
+}
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span i{
     margin-right: 3px;
     color: #5f5f5f;
 }
 
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.correct-item i,
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.delete-item i,
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span.correct-item i,
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span.delete-item i,
 .admin-container .news-panel .comments-block .comment .right-side span i
 {
     font-size: 2em;
@@ -3730,10 +3735,10 @@ margin: 10px 25%;
     font-size: 1.1em;
 }
 
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.correct-item i:hover,
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.delete-item i:hover,
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.correct-item i:focus,
-.panel-info-block .admin-container .news-table .admin-table  tbody > tr > td span.delete-item i:focus,
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span.correct-item i:hover,
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span.delete-item i:hover,
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span.correct-item i:focus,
+.panel-info-block .admin-container .news-table .admin-table  tbody > tr > th span.delete-item i:focus,
 .admin-container .news-panel .comments-block .comment .right-side span i:hover,
 .admin-container .news-panel .comments-block .comment .right-side span i:focus
 {
