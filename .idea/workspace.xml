@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0532819b-c6d9-4613-8d7b-ecc2733c67f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin-news-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin-rename-single-facultative-news.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superadmin-insert-teacher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/superadmin-teacher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-facultative-list.html" afterPath="$PROJECT_DIR$/admin-facultative-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-facultative-news.html" afterPath="$PROJECT_DIR$/admin-facultative-news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-facultative-single-news.html" afterPath="$PROJECT_DIR$/admin-facultative-single-news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-library-grid.html" afterPath="$PROJECT_DIR$/admin-library-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-library-single.html" afterPath="$PROJECT_DIR$/admin-library-single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-media-gallery.html" afterPath="$PROJECT_DIR$/admin-media-gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-pages-description.html" afterPath="$PROJECT_DIR$/admin-pages-description.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-single-news.html" afterPath="$PROJECT_DIR$/admin-single-news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-task-folders-grid.html" afterPath="$PROJECT_DIR$/admin-task-folders-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-task-grid.html" afterPath="$PROJECT_DIR$/admin-task-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-admin.html" afterPath="$PROJECT_DIR$/main-admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media-galery.html" afterPath="$PROJECT_DIR$/media-galery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media-page.html" afterPath="$PROJECT_DIR$/media-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-personal.html" afterPath="$PROJECT_DIR$/student-personal.html" />
     </list>
     <ignored path="diplom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +37,7 @@
       <file leaf-file-name="main-admin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.192307">
+            <state vertical-scroll-proportion="0.0">
               <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="91" />
               <folding>
                 <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -65,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53333336">
-              <caret line="2936" column="19" selection-start-line="2936" selection-start-column="19" selection-end-line="2936" selection-end-column="19" />
+            <state vertical-scroll-proportion="-24.615385">
+              <caret line="2922" column="0" selection-start-line="2922" selection-start-column="0" selection-end-line="2922" selection-end-column="0" />
               <folding>
                 <element signature="e#11#159#0" expanded="false" />
                 <element signature="e#166#494#0" expanded="false" />
@@ -695,10 +677,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="student-personal.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/student-personal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44155845">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="admin-media-gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-media-gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="362" column="44" selection-start-line="362" selection-start-column="44" selection-end-line="362" selection-end-column="44" />
               <folding />
             </state>
@@ -708,7 +700,7 @@
       <file leaf-file-name="admin-schedule-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-schedule-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0384617">
+            <state vertical-scroll-proportion="0.0">
               <caret line="459" column="81" selection-start-line="459" selection-start-column="81" selection-end-line="459" selection-end-column="81" />
               <folding />
             </state>
@@ -718,7 +710,7 @@
       <file leaf-file-name="admin-task-grid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-task-grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.423077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
               <folding />
             </state>
@@ -728,7 +720,7 @@
       <file leaf-file-name="admin-task-folders-grid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-task-folders-grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="392" column="26" selection-start-line="392" selection-start-column="26" selection-end-line="392" selection-end-column="26" />
               <folding />
             </state>
@@ -738,18 +730,8 @@
       <file leaf-file-name="admin-news-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-news-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
+            <state vertical-scroll-proportion="0.0">
               <caret line="215" column="48" selection-start-line="215" selection-start-column="48" selection-end-line="215" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="superadmin-teacher.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/superadmin-teacher.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -758,7 +740,7 @@
       <file leaf-file-name="admin-facultative-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-facultative-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6923077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="285" column="59" selection-start-line="285" selection-start-column="59" selection-end-line="285" selection-end-column="59" />
               <folding />
             </state>
@@ -768,7 +750,7 @@
       <file leaf-file-name="admin-facultative-news.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-facultative-news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -817,7 +799,6 @@
         <option value="$PROJECT_DIR$/state-cathedra.html" />
         <option value="$PROJECT_DIR$/js/student-js.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/student-personal.html" />
         <option value="$PROJECT_DIR$/admin-single-task-puzzle.html" />
         <option value="$PROJECT_DIR$/js/wysihtml5-0.3.0.min.js" />
         <option value="$PROJECT_DIR$/js/bootstrap-wysihtml5.js" />
@@ -845,6 +826,7 @@
         <option value="$PROJECT_DIR$/superadmin-teacher.html" />
         <option value="$PROJECT_DIR$/main-admin.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/student-personal.html" />
       </list>
     </option>
   </component>
@@ -888,8 +870,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -952,6 +932,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1023,7 +1005,7 @@
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2852761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2898773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1158,13 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student-personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.461538">
-          <caret line="193" column="87" selection-start-line="193" selection-start-column="85" selection-end-line="193" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/state-cathedra.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3265306">
@@ -1225,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="279" column="30" selection-start-line="279" selection-start-column="30" selection-end-line="279" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,9 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
-          <folding>
-            <element signature="n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33208954">
           <caret line="159" column="121" selection-start-line="159" selection-start-column="120" selection-end-line="159" selection-end-column="121" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9048507">
           <caret line="443" column="31" selection-start-line="443" selection-start-column="25" selection-end-line="443" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21150278">
           <caret line="340" column="18" selection-start-line="340" selection-start-column="18" selection-end-line="340" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4615384">
           <caret line="237" column="94" selection-start-line="237" selection-start-column="94" selection-end-line="237" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32467532">
           <caret line="202" column="53" selection-start-line="202" selection-start-column="53" selection-end-line="202" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4007421">
           <caret line="397" column="47" selection-start-line="397" selection-start-column="47" selection-end-line="397" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,13 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.07692308">
           <caret line="372" column="47" selection-start-line="372" selection-start-column="47" selection-end-line="372" selection-end-column="47" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1329,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23005566">
           <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.9615383">
           <caret line="193" column="46" selection-start-line="193" selection-start-column="46" selection-end-line="193" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
           <caret line="228" column="14" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78664196">
           <caret line="394" column="120" selection-start-line="394" selection-start-column="120" selection-end-line="394" selection-end-column="120" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
           <caret line="253" column="50" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.923077">
           <caret line="128" column="76" selection-start-line="128" selection-start-column="76" selection-end-line="128" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1385,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,13 +1340,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
           <caret line="196" column="70" selection-start-line="196" selection-start-column="70" selection-end-line="196" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/superadmin-teacher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
           <folding />
         </state>
@@ -1407,7 +1353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-news-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
+        <state vertical-scroll-proportion="0.0">
           <caret line="215" column="48" selection-start-line="215" selection-start-column="48" selection-end-line="215" selection-end-column="48" />
           <folding />
         </state>
@@ -1415,7 +1361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-facultative-news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
           <folding>
             <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1425,7 +1371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-facultative-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6923077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="285" column="59" selection-start-line="285" selection-start-column="59" selection-end-line="285" selection-end-column="59" />
           <folding />
         </state>
@@ -1433,7 +1379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-task-folders-grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="392" column="26" selection-start-line="392" selection-start-column="26" selection-end-line="392" selection-end-column="26" />
           <folding />
         </state>
@@ -1441,7 +1387,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-task-grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.423077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
           <folding />
         </state>
@@ -1449,7 +1395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-schedule-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0384617">
+        <state vertical-scroll-proportion="0.0">
           <caret line="459" column="81" selection-start-line="459" selection-start-column="81" selection-end-line="459" selection-end-column="81" />
           <folding />
         </state>
@@ -1457,7 +1403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin-media-gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="362" column="44" selection-start-line="362" selection-start-column="44" selection-end-line="362" selection-end-column="44" />
           <folding />
         </state>
@@ -1465,7 +1411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main-admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.192307">
+        <state vertical-scroll-proportion="0.0">
           <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="91" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1476,8 +1422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53333336">
-          <caret line="2936" column="19" selection-start-line="2936" selection-start-column="19" selection-end-line="2936" selection-end-column="19" />
+        <state vertical-scroll-proportion="-24.615385">
+          <caret line="2922" column="0" selection-start-line="2922" selection-start-column="0" selection-end-line="2922" selection-end-column="0" />
           <folding>
             <element signature="e#11#159#0" expanded="false" />
             <element signature="e#166#494#0" expanded="false" />
@@ -2099,6 +2045,14 @@
             <element signature="e#98967#98996#0" expanded="false" />
             <element signature="e#99007#99036#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student-personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44155845">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
