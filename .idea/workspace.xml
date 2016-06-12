@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0532819b-c6d9-4613-8d7b-ecc2733c67f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-personal.html" afterPath="$PROJECT_DIR$/student-personal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-cathedra.html" afterPath="$PROJECT_DIR$/admin-cathedra.html" />
     </list>
     <ignored path="diplom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +51,7 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.615385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2922" column="0" selection-start-line="2922" selection-start-column="0" selection-end-line="2922" selection-end-column="0" />
               <folding>
                 <element signature="e#11#159#0" expanded="false" />
@@ -677,11 +678,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student-personal.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="student-personal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student-personal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44155845">
+            <state vertical-scroll-proportion="-9.576923">
               <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-single-news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-single-news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7692307">
+              <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -700,8 +711,18 @@
       <file leaf-file-name="admin-schedule-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-schedule-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="459" column="81" selection-start-line="459" selection-start-column="81" selection-end-line="459" selection-end-column="81" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="464" column="81" selection-start-line="464" selection-start-column="81" selection-end-line="464" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-cathedra.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin-cathedra.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66233766">
+              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -727,34 +748,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-news-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-news-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="215" column="48" selection-start-line="215" selection-start-column="48" selection-end-line="215" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin-facultative-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-facultative-list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="285" column="59" selection-start-line="285" selection-start-column="59" selection-end-line="285" selection-end-column="59" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-facultative-news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-facultative-news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="411" column="0" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -806,7 +805,6 @@
         <option value="$PROJECT_DIR$/admin-single-task-gapword.html" />
         <option value="$PROJECT_DIR$/admin-single-task-test.html" />
         <option value="$PROJECT_DIR$/admin-schedule-page.html" />
-        <option value="$PROJECT_DIR$/admin-cathedra.html" />
         <option value="$PROJECT_DIR$/js/admin-js.js" />
         <option value="$PROJECT_DIR$/media-galery.html" />
         <option value="$PROJECT_DIR$/media-page.html" />
@@ -827,6 +825,7 @@
         <option value="$PROJECT_DIR$/main-admin.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/student-personal.html" />
+        <option value="$PROJECT_DIR$/admin-cathedra.html" />
       </list>
     </option>
   </component>
@@ -1002,10 +1001,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2898773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29447854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1252,13 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-cathedra.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4615384">
-          <caret line="237" column="94" selection-start-line="237" selection-start-column="94" selection-end-line="237" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-library-grid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32467532">
@@ -1277,13 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.07692308">
           <caret line="372" column="47" selection-start-line="372" selection-start-column="47" selection-end-line="372" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-single-news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23005566">
-          <caret line="172" column="42" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1347,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,14 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-schedule-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="459" column="81" selection-start-line="459" selection-start-column="81" selection-end-line="459" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-media-gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1422,7 +1398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.615385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2922" column="0" selection-start-line="2922" selection-start-column="0" selection-end-line="2922" selection-end-column="0" />
           <folding>
             <element signature="e#11#159#0" expanded="false" />
@@ -2050,8 +2026,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student-personal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44155845">
+        <state vertical-scroll-proportion="-9.576923">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-single-news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7692307">
+          <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-schedule-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="464" column="81" selection-start-line="464" selection-start-column="81" selection-end-line="464" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-cathedra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66233766">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding />
         </state>
       </provider>
